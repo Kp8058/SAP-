@@ -1,0 +1,5 @@
+ID,title,description,eventType,venue_ID,startDate,endDate,startTime,endTime,maxAttendees,registeredCount,ticketPrice,status,organizerName,organizerEmail,tags
+550e8400-e29b-41d4-a716-446655440000,Tech Summit,Annual Tech Meet,Conference,c7c54a2a-b7e1-4888-8888-888888888888,2026-06-15,2026-06-15,09:00:00,17:00:00,500,0,100.00,Draft,Organizer1,org1@test.com,"Tech,AI"
+6ba7b810-9dad-11d1-80b4-00c04fd430c8,JS Workshop,Deep dive into JS,Workshop,d8d65b3b-c8f2-4999-9999-999999999999,2026-07-20,2026-07-20,10:00:00,14:00:00,50,0,50.00,Published,Organizer2,org2@test.com,"Coding,JS"
+7c3a8120-9dad-11d1-80b4-00c04fd430c8,Design Seminar,UX/UI Trends,Seminar,d8d65b3b-c8f2-4999-9999-999999999999,2026-08-10,2026-08-10,14:00:00,16:00:00,80,0,75.00,Published,Organizer3,org3@test.com,"Design,UX"
+8d4b9230-9dad-11d1-80b4-00c04fd430c8,Startup Meetup,Founder Networking,Meetup,e9e76c4c-d9f3-4111-1111-111111111111,2026-09-05,2026-09-05,18:00:00,21:00:00,100,0,20.00,Draft,Organizer4,org4@test.com,"Networking,Startup"

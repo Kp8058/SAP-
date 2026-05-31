@@ -1,0 +1,13 @@
+studentId,courseCode,enrollmentDate,status,grade,gradePoints,attendancePercent
+S001,CS101,2026-01-10,Enrolled,A,10.0,90
+S002,CS101,2026-01-10,Enrolled,B,8.0,85
+S003,EE101,2026-01-10,Enrolled,A,10.0,95
+S004,EE101,2026-01-10,Enrolled,C,6.0,88
+S005,ME101,2026-01-10,Enrolled,B,8.0,80
+S006,CS102,2026-01-10,Enrolled,A,10.0,92
+S007,EE102,2026-01-10,Enrolled,B,8.0,91
+S008,ME102,2026-01-10,Enrolled,D,4.0,75
+S001,CS102,2026-01-10,Enrolled,B,8.0,89
+S003,CS101,2026-01-10,Enrolled,A,10.0,94
+S004,CS102,2026-01-10,Enrolled,B,8.0,86
+S006,EE101,2026-01-10,Enrolled,A,10.0,93
