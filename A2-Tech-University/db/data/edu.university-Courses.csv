@@ -1,7 +1,0 @@
-courseCode,title,description,credits,maxStudents,currentEnrolled,semester,departmentCode,professorId,schedule,roomNumber,isActive
-CS101,Intro to CS,Basics of Programming,4,30,0,1,CS,1,MWF 10-11,101,true
-CS102,Data Structures,Algorithms and DS,4,30,0,2,CS,2,TTh 11-12,102,true
-EE101,Circuits,Basic Circuits,3,25,0,1,EE,3,MWF 09-10,201,true
-EE102,Signals,Signal Processing,3,25,0,2,EE,4,TTh 14-15,202,true
-ME101,Thermodynamics,Heat and Energy,3,20,0,1,ME,5,MWF 11-12,301,true
-ME102,Mechanics,Forces and Motion,3,20,0,2,ME,5,TTh 09-10,302,true

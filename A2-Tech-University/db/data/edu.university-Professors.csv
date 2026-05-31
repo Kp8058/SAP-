@@ -1,6 +1,0 @@
-professorId,firstName,lastName,email,phone,departmentCode,designation,joinDate,salary,officeRoom
-1,John,Doe,john@uni.edu,9998887771,CS,Full,2010-01-15,90000,A101
-2,Jane,Smith,jane@uni.edu,9998887772,CS,Associate,2012-05-20,75000,A102
-3,Alice,White,alice@uni.edu,9998887773,EE,Assistant,2015-09-10,60000,B101
-4,Bob,Black,bob@uni.edu,9998887774,EE,Full,2005-03-22,95000,B102
-5,Charlie,Green,charlie@uni.edu,9998887775,ME,Associate,2018-11-05,72000,C101

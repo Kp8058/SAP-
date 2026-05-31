@@ -1,5 +1,0 @@
-ID,name,licenseNumber,licenseExpiry,phone,email,experience,rating,status,vehicle_ID,joinDate
-4c352202-f3cc-5366-9dbg-5247d678b001,Rajesh Kumar,DL-12345,2030-01-01,9876543210,rajesh@mail.com,5,5,Available,3b241101-e2bb-4255-8caf-4136c567a901,2025-01-10
-4c352202-f3cc-5366-9dbg-5247d678b002,Sunita Devi,DL-67890,2029-05-20,9876543211,sunita@mail.com,3,4,OnTrip,3b241101-e2bb-4255-8caf-4136c567a902,2025-06-15
-4c352202-f3cc-5366-9dbg-5247d678b003,Amit Singh,DL-11223,2031-10-10,9876543212,amit@mail.com,2,3,Available,3b241101-e2bb-4255-8caf-4136c567a903,2026-01-20
-4c352202-f3cc-5366-9dbg-5247d678b004,Vijay Rao,DL-44556,2028-12-12,9876543213,vijay@mail.com,8,5,OnLeave,3b241101-e2bb-4255-8caf-4136c567a904,2024-03-05

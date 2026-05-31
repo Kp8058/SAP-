@@ -1,6 +1,0 @@
-ID,registrationNumber,type,make,model,year,capacity,fuelType,status,lastServiceDate,mileage,insuranceExpiry
-3b241101-e2bb-4255-8caf-4136c567a901,KA-01-AB-1111,Van,Tata,Ace,2022,1000,Diesel,Available,2026-01-10,5000,2027-01-10
-3b241101-e2bb-4255-8caf-4136c567a902,KA-01-AB-2222,Truck,Ashok Leyland,Dost,2023,2000,Diesel,Available,2026-02-15,3000,2027-02-15
-3b241101-e2bb-4255-8caf-4136c567a903,KA-01-AB-3333,Bike,Hero,Splendor,2024,50,Petrol,Available,2026-04-01,1000,2027-04-01
-3b241101-e2bb-4255-8caf-4136c567a904,KA-01-AB-4444,Trailer,Volvo,FH16,2021,20000,Diesel,Maintenance,2025-12-20,15000,2026-12-20
-3b241101-e2bb-4255-8caf-4136c567a905,KA-01-AB-5555,Van,Mahindra,Bolero,2025,1200,Electric,Available,2026-05-01,500,2028-05-01
