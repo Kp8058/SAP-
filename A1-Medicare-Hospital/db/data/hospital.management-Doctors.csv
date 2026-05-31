@@ -1,0 +1,7 @@
+ID,firstName,lastName,specialization,qualification,experience,fee,departmentId_ID,phone,email,availableDays,isActive
+4c352202-a30c-52e5-b827-557766551101,John,Smith,Cardiology,MD,10,200.00,3b241101-e29b-41d4-a716-446655440001,555-0201,j.smith@hosp.com,Mon-Wed,true
+4c352202-a30c-52e5-b827-557766551102,Jane,Jones,Neurology,DM,12,250.00,3b241101-e29b-41d4-a716-446655440002,555-0202,j.jones@hosp.com,Tue-Thu,true
+4c352202-a30c-52e5-b827-557766551103,Alice,Brown,Pediatrics,MD,8,150.00,3b241101-e29b-41d4-a716-446655440003,555-0203,a.brown@hosp.com,Mon-Fri,true
+4c352202-a30c-52e5-b827-557766551104,Bob,White,General,MBBS,5,100.00,3b241101-e29b-41d4-a716-446655440004,555-0204,b.white@hosp.com,Mon-Sat,true
+4c352202-a30c-52e5-b827-557766551105,Charlie,Black,Cardiology,MD,15,300.00,3b241101-e29b-41d4-a716-446655440001,555-0205,c.black@hosp.com,Wed-Fri,true
+4c352202-a30c-52e5-b827-557766551106,David,Green,Neurology,DM,7,220.00,3b241101-e29b-41d4-a716-446655440002,555-0206,d.green@hosp.com,Mon-Wed,true

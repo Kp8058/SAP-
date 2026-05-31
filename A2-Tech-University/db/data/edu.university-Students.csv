@@ -1,0 +1,9 @@
+rollNumber,firstName,lastName,email,phone,dateOfBirth,admissionYear,currentSemester,cgpa,departmentCode,isActive
+S001,Student,One,s1@u.edu,111,2005-01-01,2023,1,8.5,CS,true
+S002,Student,Two,s2@u.edu,112,2005-02-01,2023,1,7.9,CS,true
+S003,Student,Three,s3@u.edu,113,2005-03-01,2023,1,9.1,EE,true
+S004,Student,Four,s4@u.edu,114,2005-04-01,2023,1,8.2,EE,true
+S005,Student,Five,s5@u.edu,115,2005-05-01,2023,1,7.5,ME,true
+S006,Student,Six,s6@u.edu,116,2005-06-01,2023,1,8.8,CS,true
+S007,Student,Seven,s7@u.edu,117,2005-07-01,2023,1,9.0,EE,true
+S008,Student,Eight,s8@u.edu,118,2005-08-01,2023,1,6.5,ME,true

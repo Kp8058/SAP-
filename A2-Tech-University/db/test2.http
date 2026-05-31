@@ -1,0 +1,31 @@
+### 1. GET courses filtered by department and semester
+GET http://localhost:4004/odata/v4/University/Courses?$filter=departmentCode eq 'CS' and semester eq 1
+
+### 2. GET students with CGPA above 8.0
+GET http://localhost:4004/odata/v4/University/Students?$filter=cgpa gt 8.0
+
+### 3. POST new student enrollment
+POST http://localhost:4004/odata/v4/University/Enrollments
+Content-Type: application/json
+
+{
+   "studentId": "S100",
+   "courseCode": "CS101",
+   "enrollmentDate": "2026-05-31",
+   "status": "Enrolled"
+}
+
+### 4. GET all enrollments for a specific student
+GET http://localhost:4004/odata/v4/University/Enrollments?$filter=studentId eq 'S100'
+
+### 5. Filter courses where seats are available
+GET http://localhost:4004/odata/v4/University/Courses?$filter=currentEnrolled lt maxStudents
+
+### 6. PATCH enrollment to add grade
+PATCH http://localhost:4004/odata/v4/University/Enrollments(studentId='S100',courseCode='CS101')
+Content-Type: application/json
+
+{
+   "grade": "B",
+   "gradePoints": 8.0
+}

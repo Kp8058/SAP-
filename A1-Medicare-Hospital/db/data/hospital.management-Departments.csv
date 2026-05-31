@@ -1,0 +1,5 @@
+ID,name,floor,head,capacity,phone,isActive
+3b241101-e29b-41d4-a716-446655440001,Cardiology,1,Dr. Smith,20,555-0101,true
+3b241101-e29b-41d4-a716-446655440002,Neurology,2,Dr. Jones,15,555-0102,true
+3b241101-e29b-41d4-a716-446655440003,Pediatrics,3,Dr. Brown,25,555-0103,true
+3b241101-e29b-41d4-a716-446655440004,General,1,Dr. White,50,555-0104,true

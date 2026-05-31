@@ -1,0 +1,6 @@
+ID,firstName,lastName,dateOfBirth,gender,bloodGroup,phone,email,address,emergencyContact,registrationDate
+5d463303-b41d-63f6-c938-668877662201,Sam,Wilson,1995-05-15,Male,OPlus,555-0301,s.wilson@mail.com,123 Maple St,555-9991,2026-01-10
+5d463303-b41d-63f6-c938-668877662202,Sara,Miller,1988-08-20,Female,APlus,555-0302,s.miller@mail.com,456 Oak Ave,555-9992,2026-01-11
+5d463303-b41d-63f6-c938-668877662203,Mike,Davis,2000-02-10,Male,BMinus,555-0303,m.davis@mail.com,789 Pine Rd,555-9993,2026-02-05
+5d463303-b41d-63f6-c938-668877662204,Lucy,Taylor,1992-12-05,Female,ABPlus,555-0304,l.taylor@mail.com,321 Elm St,555-9994,2026-02-15
+5d463303-b41d-63f6-c938-668877662205,Tom,Clark,1975-06-30,Male,OMinus,555-0305,t.clark@mail.com,654 Cedar Ln,555-9995,2026-03-01

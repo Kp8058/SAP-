@@ -1,0 +1,6 @@
+ID,fromCity,toCity,distance,estimatedHours,tollCharges,isActive
+6e574404-b5ee-7588-1fdi-7469f890d001,Bengaluru,Mumbai,980,18.5,1200,true
+6e574404-b5ee-7588-1fdi-7469f890d002,Delhi,Mumbai,1400,24.0,2000,true
+6e574404-b5ee-7588-1fdi-7469f890d003,Bengaluru,Chennai,350,7.0,500,true
+6e574404-b5ee-7588-1fdi-7469f890d004,Mumbai,Pune,150,3.0,200,true
+6e574404-b5ee-7588-1fdi-7469f890d005,Delhi,Jaipur,280,5.5,300,true
