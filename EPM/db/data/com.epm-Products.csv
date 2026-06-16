@@ -1,0 +1,9 @@
+ID,name,description,price,currency_code,stock,minStock,rating,supplier_ID,category_ID,createdAt,createdBy,modifiedAt,modifiedBy
+PRD1,Dell Latitude 5440,Business Laptop,65000,INR,30,10,4.5,SUP1,CAT2,2026-01-01T10:00:00Z,admin,2026-01-01T10:00:00Z,admin
+PRD2,HP Pavilion 15,Personal Laptop,70000,INR,15,10,4.2,SUP2,CAT2,2026-01-01T10:00:00Z,admin,2026-01-01T10:00:00Z,admin
+PRD3,Lenovo ThinkPad X1,Professional Laptop,80000,INR,5,10,4.8,SUP3,CAT2,2026-01-01T10:00:00Z,admin,2026-01-01T10:00:00Z,admin
+PRD4,iPhone 15,Apple Smartphone,85000,INR,12,5,4.9,SUP4,CAT3,2026-01-01T10:00:00Z,admin,2026-01-01T10:00:00Z,admin
+PRD5,Dell Monitor 24,24 Inch Monitor,12000,INR,8,10,4.4,SUP1,CAT5,2026-01-01T10:00:00Z,admin,2026-01-01T10:00:00Z,admin
+PRD6,HP Wireless Mouse,Wireless Mouse,1000,INR,50,20,4.1,SUP2,CAT4,2026-01-01T10:00:00Z,admin,2026-01-01T10:00:00Z,admin
+PRD7,Lenovo Keyboard,Mechanical Keyboard,2500,INR,25,10,4.3,SUP3,CAT4,2026-01-01T10:00:00Z,admin,2026-01-01T10:00:00Z,admin
+PRD8,Apple AirPods Pro,Wireless Earbuds,15000,INR,3,5,4.7,SUP4,CAT4,2026-01-01T10:00:00Z,admin,2026-01-01T10:00:00Z,admin

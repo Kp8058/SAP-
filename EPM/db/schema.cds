@@ -1,0 +1,102 @@
+namespace com.epm;
+
+using {
+cuid,managed,Currency,Country
+} from '@sap/cds/common';
+
+entity Suppliers : cuid {
+name : String(100);
+contact  : String(100);
+email  : String(100);
+phone  : String(20);
+city : String(50);
+country : Country;
+isActive : Boolean default true;
+}
+
+entity Categories : cuid {
+name : String(100);
+description  : String(255);
+parentCategory : Association to Categories;
+}
+
+entity Products : cuid, managed {
+name  : String(100);
+description : String(255);
+price   : Decimal(15,2);
+currency : Currency;
+stock   : Integer;
+minStock : Integer;
+rating : Decimal(3,1);
+
+supplier : Association to Suppliers;
+category : Association to Categories;
+}
+
+entity Customers : cuid, managed {
+name  : String(100);
+email   : String(100);
+phone   : String(20);
+city  : String(50);
+country  : Country;
+creditLimit : Decimal(15,2);
+}
+
+entity SalesOrders : cuid, managed {
+orderNumber : String(30);
+customer : Association to Customers;
+orderDate  : Date;
+totalAmount : Decimal(15,2);
+taxAmount  : Decimal(15,2);
+netAmount  : Decimal(15,2);
+currency : Currency;
+status  : String(20);
+items   : Composition of many SalesOrderItems
+    on items.order = $self;
+}
+
+entity SalesOrderItems : cuid {
+order  : Association to SalesOrders;
+product  : Association to Products;
+quantity : Integer;
+unitPrice : Decimal(15,2);
+netAmount  : Decimal(15,2);
+}
+
+entity PurchaseOrders : cuid, managed {
+poNumber : String(30);
+supplier : Association to Suppliers;
+orderDate  : Date;
+
+
+amount  : Decimal(15,2);
+totalBudget : Decimal(15,2);
+currency : Currency;
+status : String(20);
+items   : Composition of many PurchaseOrderItems on items.order = $self;
+
+virtual statusCriticality : Integer @Core.Computed;
+}
+
+entity PurchaseOrderItems : cuid {
+order   : Association to PurchaseOrders;
+product  : Association to Products;
+quantity : Integer;
+unitPrice  : Decimal(15,2);
+totalPrice : Decimal(15,2);
+}
+
+
+// //package.json
+// ,
+
+//    "cds": {
+//    "requires": {
+//      "db": {
+//        "kind": "sqlite",
+//        "credentials": {
+//          "database": "db/epm.db"
+//        }
+//      }
+//    }
+//  }

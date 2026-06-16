@@ -1,0 +1,12 @@
+<core:FragmentDefinition xmlns:core="sap.ui.core" xmlns="sap.m">
+<VBox class="sapUiSmallMargin">
+<Title text="Budget Utilization" level="H3"/>
+<ProgressIndicator
+     percentValue="{= ${amount} / ${totalBudget} * 100}"
+     displayValue="{= ${amount} + ' / ' + ${totalBudget} + ' ' + ${currency_code}}"
+     state="{= (${amount} / ${totalBudget}) &gt; 0.9 ? 'Error' : (${amount} / ${totalBudget}) &gt; 0.7 ? 'Warning' : 'Success'}"
+   />
+<Text text="Budget Alert: {= (${amount} / ${totalBudget}) &gt; 0.9 ? 'Critical Limit Reached!' : 'Within Safe Limits'}" class="sapUiTinyMarginTop"/>
+</VBox>
+</core:FragmentDefinition>
+
