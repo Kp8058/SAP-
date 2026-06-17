@@ -32,7 +32,7 @@ entity Products : cuid, managed {
  description   : String(500);
  unitPrice     : Decimal(10,2);
  currency      : Currency;
- stock         : Integer default 0;
+ stock         : Integer default 10;
  minStock      : Integer default 10;
  unit          : String(10) default 'EA';
  supplier      : Association to Suppliers;
