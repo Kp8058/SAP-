@@ -1,0 +1,6 @@
+ID,supplierName,contactPerson,email,phone,city,rating,isActive,createdAt,createdBy,modifiedAt,modifiedBy
+58437212-0c52-4acd-ad5c-73f79cbac1c5,supplierName-5843721,contactPerson-5843721,email-5843721,phone-5843721,city-5843721,8.7,false,2019-03-08T00:00:00.000Z,createdBy.3h91l@example.com,2005-02-20T00:00:00.000Z,modifiedBy.3h91l@example.org
+4431853a-a717-4a92-a974-a51bbe480e27,supplierName-4431853,contactPerson-4431853,email-4431853,phone-4431853,city-4431853,4.8,false,2013-01-01T00:00:00.000Z,createdBy.2mzn1@example.net,2022-04-26T00:00:00.000Z,modifiedBy.2mzn1@example.org
+44318542-10d0-4553-8dff-be47b653f2cd,supplierName-4431854,contactPerson-4431854,email-4431854,phone-4431854,city-4431854,4,true,2003-03-24T00:00:00.000Z,createdBy.2mzn2@example.com,2020-03-12T00:00:00.000Z,modifiedBy.2mzn2@example.org
+44318553-db1f-41cb-928a-298c7414d07d,supplierName-4431855,contactPerson-4431855,email-4431855,phone-4431855,city-4431855,4.5,false,2011-08-19T00:00:00.000Z,createdBy.2mzn3@example.net,2006-12-18T00:00:00.000Z,modifiedBy.2mzn3@example.org
+4431856d-f042-47ef-9ac6-4c023af4b318,supplierName-4431856,contactPerson-4431856,email-4431856,phone-4431856,city-4431856,1.4,true,2003-12-06T00:00:00.000Z,createdBy.2mzn4@example.com,2007-11-19T00:00:00.000Z,modifiedBy.2mzn4@example.org

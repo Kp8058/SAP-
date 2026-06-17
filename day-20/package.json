@@ -1,0 +1,25 @@
+{
+  "name": "day-20",
+  "version": "1.0.0",
+  "dependencies": {
+    "@sap/cds": "^9"
+  },
+  "devDependencies": {
+    "@cap-js/sqlite": "^2.4",
+    "cds-plugin-ui5": "^0.13.0"
+  },
+  "scripts": {
+    "start": "cds-serve",
+    "watch-day20": "cds watch --open day20/index.html?sap-ui-xx-viewCache=false --livereload false",
+    "watch-day22": "cds watch --open day22/index.html?sap-ui-xx-viewCache=false --livereload false"
+  },
+  "private": true,
+  "workspaces": [
+    "app/*"
+  ],
+  "sapux": [
+    "app/day20",
+    "app/day22",
+    "app/products"
+  ]
+}
