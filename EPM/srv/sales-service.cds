@@ -57,24 +57,43 @@ entity SalesOrderItems as projection on epm.SalesOrderItems;
 
 
 
-service AdminService {
+service AdminService @(requires:'authenticated-user') {
 
-entity Suppliers as projection on epm.Suppliers;
-entity Categories as projection on epm.Categories;
-entity Products as projection on epm.Products;
+//entity Suppliers as projection on epm.Suppliers;
+//entity Categories as projection on epm.Categories;
+//entity Products as projection on epm.Products;
 entity Customers as projection on epm.Customers;
 entity SalesOrders as projection on epm.SalesOrders;
 entity SalesOrderItems as projection on epm.SalesOrderItems;
 
 @odata.draft.enabled:true
-entity PurchaseOrders as projection on epm.PurchaseOrders
-  actions {
-     action submit() returns { status: String; message: String; };
-     action approve(comment: String) returns { status: String; message: String; };
-     action reject(reason: String) returns { status: String; message: String; };
+entity PurchaseOrders  as projection on epm.PurchaseOrders 
+   actions {
+     @(requires: 'PurchaseManager') action submit() returns { status: String; };
+     @(requires: ['PurchaseManager', 'Administrator']) action approve(comment: String) returns { status: String; };
+     @(requires: ['PurchaseManager', 'Administrator']) action reject(reason: String) returns { status: String; };
    };
-entity PurchaseOrderItems as projection on epm.PurchaseOrderItems;
+ entity PurchaseOrderItems as projection on epm.PurchaseOrderItems;
+ @readonly entity Products as projection on epm.Products;
+ @(requires: 'Administrator') entity Suppliers as projection on epm.Suppliers;
+ @(requires: 'Administrator') entity Categories as projection on epm.Categories;
+
+
+
+
+// @odata.draft.enabled:true
+// entity PurchaseOrders as projection on epm.PurchaseOrders
+//   actions {
+//      action submit() returns { status: String; message: String; };
+//      action approve(comment: String) returns { status: String; message: String; };
+//      action reject(reason: String) returns { status: String; message: String; };
+//    };
+// entity PurchaseOrderItems as projection on epm.PurchaseOrderItems;
+
 }
+
+
+
 
 // service ReportingService {
 //    @readonly entity ProductCatalogReport as projection on epm.views.ProductCatalog;

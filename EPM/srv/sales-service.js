@@ -232,7 +232,7 @@ this.after('READ', 'PurchaseOrders', (results) => {
 });
 
 
- 
+// side effect to calculate total price of order items 
 this.before(['CREATE', 'UPDATE'], 'PurchaseOrderItems', async (req) => {
  const quantity = req.data.quantity;
  const unitPrice = req.data.unitPrice;
@@ -240,6 +240,46 @@ this.before(['CREATE', 'UPDATE'], 'PurchaseOrderItems', async (req) => {
    req.data.totalPrice = quantity * unitPrice;
  }
 });
+
+
+
+// Ensure createdBy comes from token, not client
+ this.before('CREATE', 'PurchaseOrders', (req) => {
+   req.data.createdBy = req.user.id;
+ });
+ // Only the owner OR admin can submit
+ this.on('submit', 'PurchaseOrders', async (req) => {
+   const { ID } = req.params[0];
+   const po = await SELECT.one.from(PurchaseOrders).where({ ID });
+   if (!po) req.reject(404, 'PO not found');
+   // Instance-based: only owner can submit their own PO
+   if (!req.user.is('Administrator') && po.createdBy !== req.user.id) {
+     req.reject(403, 'You can only submit your own Purchase Orders');
+   }
+   if (po.status !== 'Draft') {
+     req.reject(400, `Cannot submit: PO is "${po.status}"`);
+   }
+   await UPDATE(PurchaseOrders).set({ status: 'Submitted' }).where({ ID });
+   return { status: 'Submitted' };
+ });
+ // Approver cannot approve their own PO (separation of duties)
+ this.on('approve', 'PurchaseOrders', async (req) => {
+   const { ID } = req.params[0];
+   const po = await SELECT.one.from(PurchaseOrders).where({ ID });
+   if (!po) req.reject(404, 'PO not found');
+   if (po.status !== 'Submitted') req.reject(400, 'Only submitted POs can be approved');
+   // Separation of duties: can't approve your own PO!
+   if (po.createdBy === req.user.id && !req.user.is('Administrator')) {
+     req.reject(403, 'You cannot approve your own Purchase Order (separation of duties)');
+   }
+   await UPDATE(PurchaseOrders).set({
+     status: 'Approved',
+     approvedBy: req.user.id,
+     approvedAt: new Date().toISOString()
+   }).where({ ID });
+   return { status: 'Approved' };
+ });
+
 
 
 
