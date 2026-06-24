@@ -1,6 +1,6 @@
 
 using com.epm from '../db/schema';
-//using epm.views from '../db/views';
+//using epm.views as db from '../db/views';
 
 service SalesService {
 
@@ -15,8 +15,6 @@ entity Products as projection on epm.Products {
  supplier,
  category
 };
-
-
 
 entity Customers as projection on epm.Customers;
  entity SalesOrders as projection on epm.SalesOrders
@@ -96,9 +94,9 @@ entity PurchaseOrders  as projection on epm.PurchaseOrders
 
 
 // service ReportingService {
-//    @readonly entity ProductCatalogReport as projection on epm.views.ProductCatalog;
-//    @readonly entity OrderReport as projection on epm.views.OrderReport;
-//    @readonly entity LowStockAlert as projection on epm.views.LowStockAlert;
+//    @readonly entity ProductCatalogReport as projection on db.ProductCatalog;
+//    @readonly entity OrderReport as projection on db.OrderReport;
+//    @readonly entity LowStockAlert as projection on db.LowStockAlert;
 
 // }
 

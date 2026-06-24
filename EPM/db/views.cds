@@ -16,6 +16,7 @@ view ProductCatalog as select from epm.Products {
 };
 
 view OrderReport as select from epm.SalesOrders {
+key ID,
  orderNumber,
  customer.name as customerName,
  totalAmount,
@@ -24,6 +25,7 @@ view OrderReport as select from epm.SalesOrders {
 };
 
 view LowStockAlert as select from epm.Products {
+key ID,
  name,
  stock,
  minStock,
