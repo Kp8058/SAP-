@@ -1,0 +1,753 @@
+Retrieving logs for app EPM in org ca497a98trial / space dev as kamalpreet.singh@wipro.com...
+
+   2026-06-24T11:34:16.59+0000 [API/8] OUT Updated app with guid 304059af-b542-421c-9865-6ce5b54c18ff ({"lifecycle"=>{"data"=>{"buildpacks"=>[]}, "type"=>"buildpack"}})
+   2026-06-24T11:34:16.73+0000 [API/2] OUT Updating process: "web"
+   2026-06-24T11:34:45.49+0000 [API/11] OUT Uploading app package for app with guid 304059af-b542-421c-9865-6ce5b54c18ff
+   2026-06-24T11:34:45.83+0000 [API/11] OUT Updated app with guid 304059af-b542-421c-9865-6ce5b54c18ff ({"environment_variables"=>"[PRIVATE DATA HIDDEN]"})
+   2026-06-24T11:34:55.71+0000 [API/1] OUT Stopping app with guid 304059af-b542-421c-9865-6ce5b54c18ff
+   2026-06-24T11:34:55.77+0000 [CELL/0] OUT Cell 4401fcd0-006d-4ceb-9b51-aa22a1b186cf stopping instance 85800045-0d77-4e6d-7465-375f
+   2026-06-24T11:34:55.94+0000 [API/13] OUT Creating build for app with guid 304059af-b542-421c-9865-6ce5b54c18ff
+   2026-06-24T11:34:57.11+0000 [STG/0] OUT Downloading zero_trust_sidecar_buildpack_1_17...
+   2026-06-24T11:34:57.11+0000 [STG/0] OUT Downloading go_buildpack...
+   2026-06-24T11:34:57.11+0000 [STG/0] OUT Downloading staticfile_buildpack...
+   2026-06-24T11:34:57.11+0000 [STG/0] OUT Downloading sap_java_buildpack_jakarta...
+   2026-06-24T11:34:57.13+0000 [STG/0] OUT Downloaded sap_java_buildpack_jakarta
+   2026-06-24T11:34:57.13+0000 [STG/0] OUT Downloading sap_java_buildpack_jakarta_2_63...
+   2026-06-24T11:34:57.13+0000 [STG/0] OUT Downloaded zero_trust_sidecar_buildpack_1_17
+   2026-06-24T11:34:57.13+0000 [STG/0] OUT Downloading sap_java_buildpack_jakarta_2_62...
+   2026-06-24T11:34:57.13+0000 [STG/0] OUT Downloaded staticfile_buildpack
+   2026-06-24T11:34:57.13+0000 [STG/0] OUT Downloading sap_java_buildpack_jakarta_2_59...
+   2026-06-24T11:34:57.13+0000 [STG/0] OUT Downloading zero_trust_sidecar_buildpack_1_15...
+   2026-06-24T11:34:57.13+0000 [STG/0] OUT Downloaded go_buildpack
+   2026-06-24T11:34:57.13+0000 [STG/0] OUT Downloading java_buildpack...
+   2026-06-24T11:34:57.15+0000 [STG/0] OUT Downloaded sap_java_buildpack_jakarta_2_63
+   2026-06-24T11:34:57.15+0000 [STG/0] OUT Downloading zero_trust_sidecar_buildpack_1_16...
+   2026-06-24T11:34:57.15+0000 [STG/0] OUT Downloaded zero_trust_sidecar_buildpack_1_15
+   2026-06-24T11:34:57.15+0000 [STG/0] OUT Downloading zero_trust_sidecar_buildpack...
+   2026-06-24T11:34:57.15+0000 [STG/0] OUT Downloaded java_buildpack
+   2026-06-24T11:34:57.15+0000 [STG/0] OUT Downloading nginx_buildpack...
+   2026-06-24T11:34:57.15+0000 [STG/0] OUT Downloaded sap_java_buildpack_jakarta_2_62
+   2026-06-24T11:34:57.15+0000 [STG/0] OUT Downloading php_buildpack...
+   2026-06-24T11:34:57.15+0000 [STG/0] OUT Downloaded sap_java_buildpack_jakarta_2_59
+   2026-06-24T11:34:57.15+0000 [STG/0] OUT Downloading binary_buildpack...
+   2026-06-24T11:34:57.17+0000 [STG/0] OUT Downloaded zero_trust_sidecar_buildpack
+   2026-06-24T11:34:57.17+0000 [STG/0] OUT Downloading java_buildpack_v5_preview...
+   2026-06-24T11:34:57.17+0000 [STG/0] OUT Downloaded nginx_buildpack
+   2026-06-24T11:34:57.17+0000 [STG/0] OUT Downloading nodejs_buildpack...
+   2026-06-24T11:34:57.17+0000 [STG/0] OUT Downloaded php_buildpack
+   2026-06-24T11:34:57.17+0000 [STG/0] OUT Downloading python_buildpack...
+   2026-06-24T11:34:57.17+0000 [STG/0] OUT Downloaded zero_trust_sidecar_buildpack_1_16
+   2026-06-24T11:34:57.17+0000 [STG/0] OUT Downloaded binary_buildpack
+   2026-06-24T11:34:57.18+0000 [STG/0] OUT Downloaded java_buildpack_v5_preview
+   2026-06-24T11:34:57.19+0000 [STG/0] OUT Downloaded nodejs_buildpack
+   2026-06-24T11:34:57.19+0000 [STG/0] OUT Downloaded python_buildpack
+   2026-06-24T11:34:57.19+0000 [STG/0] OUT Cell 3697da87-6170-41a4-acb7-9186f1527dfa creating container for instance 9489ddb6-5fea-4b0c-b82b-e0eeab356eb3
+   2026-06-24T11:34:58.03+0000 [STG/0] OUT Security group rules were updated
+   2026-06-24T11:34:58.14+0000 [STG/0] OUT Cell 3697da87-6170-41a4-acb7-9186f1527dfa successfully created container for instance 9489ddb6-5fea-4b0c-b82b-e0eeab356eb3
+   2026-06-24T11:34:58.84+0000 [STG/0] OUT Downloading build artifacts cache...
+   2026-06-24T11:34:58.84+0000 [STG/0] OUT Downloading app package...
+   2026-06-24T11:34:58.87+0000 [STG/0] OUT Downloaded build artifacts cache (222B)
+   2026-06-24T11:34:59.00+0000 [STG/0] OUT Downloaded app package (573K)
+   2026-06-24T11:34:59.55+0000 [STG/0] OUT -----> Nodejs Buildpack version 1.9.2
+   2026-06-24T11:34:59.66+0000 [STG/0] OUT -----> Bootstrapping python
+   2026-06-24T11:34:59.66+0000 [STG/0] OUT -----> Installing python 3.13.13
+   2026-06-24T11:34:59.66+0000 [STG/0] OUT Copy [/tmp/buildpacks/ba6f4cd24dfd2bf0/dependencies/268a5e3743d51a14b86ea9da64439307/python_3.13.13_linux_x64_cflinuxfs4_8311abbf.tgz]
+   2026-06-24T11:35:04.35+0000 [STG/0] OUT -----> Installing binaries
+   2026-06-24T11:35:04.35+0000 [STG/0] OUT engines.node (package.json): unspecified
+   2026-06-24T11:35:04.35+0000 [STG/0] OUT engines.npm (package.json): unspecified (use default)
+   2026-06-24T11:35:04.35+0000 [STG/0] OUT [31;1m**WARNING**[0m Node version not specified in package.json or .nvmrc. See: http://docs.cloudfoundry.org/buildpacks/node/node-tips.html
+   2026-06-24T11:35:04.35+0000 [STG/0] OUT -----> Installing node 22.22.2
+   2026-06-24T11:35:04.35+0000 [STG/0] OUT Copy [/tmp/buildpacks/ba6f4cd24dfd2bf0/dependencies/5deea320c19fa94e977cff523ac00f82/node_22.22.2_linux_x64_cflinuxfs4_e5459374.tgz]
+   2026-06-24T11:35:07.14+0000 [STG/0] OUT Using default npm version: 10.9.7
+   2026-06-24T11:35:07.14+0000 [STG/0] OUT -----> Installing yarn 1.22.22
+   2026-06-24T11:35:07.14+0000 [STG/0] OUT Copy [/tmp/buildpacks/ba6f4cd24dfd2bf0/dependencies/e4fe26756e9984a665478d350474fa2e/yarn_1.22.22_linux_noarch_any-stack_b6132b86.tgz]
+   2026-06-24T11:35:07.51+0000 [STG/0] OUT Installed yarn 1.22.22
+   2026-06-24T11:35:07.51+0000 [STG/0] OUT -----> Creating runtime environment
+   2026-06-24T11:35:07.52+0000 [STG/0] OUT [34;1mPRO TIP:[0m Warning: package-lock.json not found. The buildpack may reach out to the internet to download module updates, even if they are vendored.
+   2026-06-24T11:35:07.52+0000 [STG/0] OUT Visit https://docs.cloudfoundry.org/buildpacks/node/index.html#offline_environments
+   2026-06-24T11:35:07.52+0000 [STG/0] OUT [34;1mPRO TIP:[0m Warning: package-lock.json not found. The buildpack may reach out to the internet to download module updates, even if they are vendored.
+   2026-06-24T11:35:07.52+0000 [STG/0] OUT Visit https://docs.cloudfoundry.org/buildpacks/node/index.html#offline_environments
+   2026-06-24T11:35:07.52+0000 [STG/0] OUT NODE_ENV=production
+   2026-06-24T11:35:07.52+0000 [STG/0] OUT NODE_HOME=/tmp/contents475657941/deps/0/node
+   2026-06-24T11:35:07.52+0000 [STG/0] OUT NODE_MODULES_CACHE=true
+   2026-06-24T11:35:07.52+0000 [STG/0] OUT NODE_VERBOSE=false
+   2026-06-24T11:35:07.52+0000 [STG/0] OUT NPM_CONFIG_LOGLEVEL=error
+   2026-06-24T11:35:07.52+0000 [STG/0] OUT NPM_CONFIG_PRODUCTION=true
+   2026-06-24T11:35:07.52+0000 [STG/0] OUT -----> Building dependencies
+   2026-06-24T11:35:07.52+0000 [STG/0] OUT Prebuild detected (node_modules already exists)
+   2026-06-24T11:35:07.52+0000 [STG/0] OUT Rebuilding any native modules
+   2026-06-24T11:35:08.07+0000 [STG/0] OUT rebuilt dependencies successfully
+   2026-06-24T11:35:08.14+0000 [STG/0] OUT Installing any new modules (package.json)
+   2026-06-24T11:35:16.71+0000 [STG/0] OUT added 194 packages in 8s
+   2026-06-24T11:35:16.71+0000 [STG/0] OUT 31 packages are looking for funding
+   2026-06-24T11:35:16.71+0000 [STG/0] OUT run `npm fund` for details
+   2026-06-24T11:35:18.03+0000 [STG/0] OUT Contrast Security no credentials found. Will not write environment files.
+   2026-06-24T11:35:30.40+0000 [STG/0] OUT Exit status 0
+   2026-06-24T11:35:30.40+0000 [STG/0] OUT Uploading droplet, build artifacts cache...
+   2026-06-24T11:35:30.40+0000 [STG/0] OUT Uploading build artifacts cache...
+   2026-06-24T11:35:30.40+0000 [STG/0] OUT Uploading droplet...
+   2026-06-24T11:35:30.42+0000 [STG/0] OUT Uploaded build artifacts cache (223B)
+   2026-06-24T11:35:31.31+0000 [API/9] OUT Creating droplet for app with guid 304059af-b542-421c-9865-6ce5b54c18ff
+   2026-06-24T11:35:35.41+0000 [STG/0] OUT Uploaded droplet (62.2M)
+   2026-06-24T11:35:35.43+0000 [STG/0] OUT Uploading complete
+   2026-06-24T11:35:37.06+0000 [STG/0] OUT Cell 3697da87-6170-41a4-acb7-9186f1527dfa stopping instance 9489ddb6-5fea-4b0c-b82b-e0eeab356eb3
+   2026-06-24T11:35:37.06+0000 [STG/0] OUT Cell 3697da87-6170-41a4-acb7-9186f1527dfa destroying container for instance 9489ddb6-5fea-4b0c-b82b-e0eeab356eb3
+   2026-06-24T11:35:37.76+0000 [API/14] OUT Staging complete for build 9489ddb6-5fea-4b0c-b82b-e0eeab356eb3
+   2026-06-24T11:35:40.32+0000 [STG/0] OUT Cell 3697da87-6170-41a4-acb7-9186f1527dfa successfully destroyed container for instance 9489ddb6-5fea-4b0c-b82b-e0eeab356eb3
+   2026-06-24T11:35:45.66+0000 [API/14] OUT Updated app with guid 304059af-b542-421c-9865-6ce5b54c18ff ({:droplet_guid=>"a8e34b6b-c614-4728-bd53-442933e6bb3b"})
+   2026-06-24T11:35:45.89+0000 [API/2] OUT Creating revision for app with guid 304059af-b542-421c-9865-6ce5b54c18ff
+   2026-06-24T11:35:45.95+0000 [API/2] OUT Starting app with guid 304059af-b542-421c-9865-6ce5b54c18ff
+   2026-06-24T11:35:46.25+0000 [CELL/0] OUT Cell 3697da87-6170-41a4-acb7-9186f1527dfa creating container for instance 97107023-4135-4b65-6ed4-4c43
+   2026-06-24T11:35:47.13+0000 [CELL/0] OUT Security group rules were updated
+   2026-06-24T11:35:47.23+0000 [CELL/0] OUT Cell 3697da87-6170-41a4-acb7-9186f1527dfa successfully created container for instance 97107023-4135-4b65-6ed4-4c43
+   2026-06-24T11:35:47.47+0000 [CELL/0] OUT Downloading droplet...
+   2026-06-24T11:35:52.57+0000 [CELL/0] OUT Downloaded droplet (62.2M)
+   2026-06-24T11:35:52.57+0000 [CELL/0] OUT Starting health monitoring of container
+   2026-06-24T11:35:52.73+0000 [APP/PROC/WEB/0] OUT Invoking pre-start scripts.
+   2026-06-24T11:35:53.00+0000 [APP/PROC/WEB/0] OUT Invoking start command.
+   2026-06-24T11:35:53.48+0000 [APP/PROC/WEB/0] OUT > start
+   2026-06-24T11:35:53.48+0000 [APP/PROC/WEB/0] OUT > node node_modules/@sap/approuter/approuter.js
+   2026-06-24T11:35:53.67+0000 [APP/PROC/WEB/0] OUT {"written_at":"2026-06-24T11:35:53.671Z","written_ts":1782300953671000000,"csn_component":"-","correlation_id":"-","type":"log","logger":"nodejs-logger","layer":"/LoggingLibrary","level":"warning","container_id":"10.32.2.7","component_type":"application","component_id":"304059af-b542-421c-9865-6ce5b54c18ff","component_name":"EPM","component_instance":-1,"source_instance":-1,"organization_id":"789aa033-f659-4ca4-a591-bf9d3c539fcd","organization_name":"ca497a98trial","space_id":"2b197de0-4164-4b4b-a753-5e60fdc57e12","space_name":"dev","context_id":"","msg":"Dynamic log level switching not available"}
+   2026-06-24T11:35:54.30+0000 [APP/PROC/WEB/0] OUT {"written_at":"2026-06-24T11:35:54.301Z","written_ts":1782300954301000000,"csn_component":"-","correlation_id":"mqrzyxtp","type":"log","logger":"nodejs-logger","layer":"/approuter","level":"info","container_id":"10.32.2.7","component_type":"application","component_id":"304059af-b542-421c-9865-6ce5b54c18ff","component_name":"EPM","component_instance":-1,"source_instance":-1,"organization_id":"789aa033-f659-4ca4-a591-bf9d3c539fcd","organization_name":"ca497a98trial","space_id":"2b197de0-4164-4b4b-a753-5e60fdc57e12","space_name":"dev","context_id":"mqrzyxtp","msg":"Application router version 21.5.0"}
+   2026-06-24T11:35:54.30+0000 [APP/PROC/WEB/0] OUT {"written_at":"2026-06-24T11:35:54.307Z","written_ts":1782300954307000000,"csn_component":"-","correlation_id":"mqrzyxtv","type":"log","logger":"nodejs-logger","layer":"/Configuration","level":"info","container_id":"10.32.2.7","component_type":"application","component_id":"304059af-b542-421c-9865-6ce5b54c18ff","component_name":"EPM","component_instance":-1,"source_instance":-1,"organization_id":"789aa033-f659-4ca4-a591-bf9d3c539fcd","organization_name":"ca497a98trial","space_id":"2b197de0-4164-4b4b-a753-5e60fdc57e12","space_name":"dev","context_id":"mqrzyxtv","msg":"No COOKIES environment variable"}
+   2026-06-24T11:35:54.31+0000 [APP/PROC/WEB/0] ERR /home/vcap/app/node_modules/@sap/approuter/lib/utils/JsonValidator.js:30
+   2026-06-24T11:35:54.31+0000 [APP/PROC/WEB/0] ERR throw new VError('%s%s: %s',
+   2026-06-24T11:35:54.31+0000 [APP/PROC/WEB/0] ERR ^
+   2026-06-24T11:35:54.31+0000 [APP/PROC/WEB/0] ERR VError: xs-app.json/routes/1: Format validation failed (/home/vcap/app/webapp is not a directory)
+   2026-06-24T11:35:54.31+0000 [APP/PROC/WEB/0] ERR at JsonValidator.validate (/home/vcap/app/node_modules/@sap/approuter/lib/utils/JsonValidator.js:30:11)
+   2026-06-24T11:35:54.31+0000 [APP/PROC/WEB/0] ERR at Object.validateXsApp (/home/vcap/app/node_modules/@sap/approuter/lib/configuration/validators.js:168:15)
+   2026-06-24T11:35:54.31+0000 [APP/PROC/WEB/0] ERR at exports.loadConfiguration (/home/vcap/app/node_modules/@sap/approuter/lib/configuration/app-config.js:21:14)
+   2026-06-24T11:35:54.31+0000 [APP/PROC/WEB/0] ERR at module.exports.load (/home/vcap/app/node_modules/@sap/approuter/lib/configuration.js:24:34)
+   2026-06-24T11:35:54.31+0000 [APP/PROC/WEB/0] ERR at bootstrap (/home/vcap/app/node_modules/@sap/approuter/lib/bootstrap.js:68:38)
+   2026-06-24T11:35:54.31+0000 [APP/PROC/WEB/0] ERR at Approuter.start (/home/vcap/app/node_modules/@sap/approuter/approuter.js:71:13)
+   2026-06-24T11:35:54.31+0000 [APP/PROC/WEB/0] ERR at Object.<anonymous> (/home/vcap/app/node_modules/@sap/approuter/approuter.js:178:6)
+   2026-06-24T11:35:54.31+0000 [APP/PROC/WEB/0] ERR at Module._compile (node:internal/modules/cjs/loader:1705:14)
+   2026-06-24T11:35:54.31+0000 [APP/PROC/WEB/0] ERR at Object..js (node:internal/modules/cjs/loader:1838:10)
+   2026-06-24T11:35:54.31+0000 [APP/PROC/WEB/0] ERR at Module.load (node:internal/modules/cjs/loader:1441:32) {
+   2026-06-24T11:35:54.31+0000 [APP/PROC/WEB/0] ERR jse_shortmsg: 'xs-app.json/routes/1: Format validation failed (/home/vcap/app/webapp is not a directory)',
+   2026-06-24T11:35:54.31+0000 [APP/PROC/WEB/0] ERR jse_info: {}
+   2026-06-24T11:35:54.31+0000 [APP/PROC/WEB/0] ERR }
+   2026-06-24T11:35:54.31+0000 [APP/PROC/WEB/0] ERR Node.js v22.22.2
+   2026-06-24T11:35:54.32+0000 [APP/PROC/WEB/0] ERR npm notice
+   2026-06-24T11:35:54.32+0000 [APP/PROC/WEB/0] ERR npm notice New major version of npm available! 10.9.7 -> 11.17.0
+   2026-06-24T11:35:54.32+0000 [APP/PROC/WEB/0] ERR npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.17.0
+   2026-06-24T11:35:54.32+0000 [APP/PROC/WEB/0] ERR npm notice To update run: npm install -g npm@11.17.0
+   2026-06-24T11:35:54.32+0000 [APP/PROC/WEB/0] ERR npm notice
+   2026-06-24T11:35:54.39+0000 [APP/PROC/WEB/0] OUT Exit status 1
+   2026-06-24T11:36:01.62+0000 [CELL/0] OUT Cell 3697da87-6170-41a4-acb7-9186f1527dfa stopping instance 97107023-4135-4b65-6ed4-4c43
+   2026-06-24T11:36:01.62+0000 [CELL/0] OUT Cell 3697da87-6170-41a4-acb7-9186f1527dfa destroying container for instance 97107023-4135-4b65-6ed4-4c43
+   2026-06-24T11:36:01.62+0000 [API/8] OUT Process has crashed with type: "web"
+   2026-06-24T11:36:01.64+0000 [API/8] OUT App instance exited with guid 304059af-b542-421c-9865-6ce5b54c18ff payload: {"instance"=>"97107023-4135-4b65-6ed4-4c43", "index"=>0, "cell_id"=>"3697da87-6170-41a4-acb7-9186f1527dfa", "reason"=>"CRASHED", "exit_description"=>"APP/PROC/WEB: Exited with status 1", "crash_count"=>1, "crash_timestamp"=>1782300961595595102, "version"=>"f397b90f-9f92-40ed-949c-af116725d112"}
+   2026-06-24T11:36:01.70+0000 [CELL/0] OUT Cell 54b50d35-322b-4617-baa3-c13476b47cb5 creating container for instance 0e701e15-ee11-469d-5c51-8ac6
+   2026-06-24T11:36:01.75+0000 [PROXY/0] OUT Exit status 137
+   2026-06-24T11:36:02.13+0000 [CELL/0] OUT Cell 4401fcd0-006d-4ceb-9b51-aa22a1b186cf destroying container for instance 85800045-0d77-4e6d-7465-375f
+   2026-06-24T11:36:02.63+0000 [CELL/0] OUT Security group rules were updated
+   2026-06-24T11:36:02.75+0000 [CELL/0] OUT Cell 54b50d35-322b-4617-baa3-c13476b47cb5 successfully created container for instance 0e701e15-ee11-469d-5c51-8ac6
+   2026-06-24T11:36:02.94+0000 [PROXY/0] OUT Exit status 137
+   2026-06-24T11:36:03.85+0000 [CELL/0] OUT Cell 4401fcd0-006d-4ceb-9b51-aa22a1b186cf successfully destroyed container for instance 85800045-0d77-4e6d-7465-375f
+   2026-06-24T11:36:03.90+0000 [CELL/0] OUT Downloading droplet...
+   2026-06-24T11:36:04.53+0000 [CELL/0] OUT Cell 3697da87-6170-41a4-acb7-9186f1527dfa successfully destroyed container for instance 97107023-4135-4b65-6ed4-4c43
+   2026-06-24T11:36:09.80+0000 [CELL/0] OUT Downloaded droplet (62.2M)
+   2026-06-24T11:36:09.80+0000 [CELL/0] OUT Starting health monitoring of container
+   2026-06-24T11:36:09.97+0000 [APP/PROC/WEB/0] OUT Invoking pre-start scripts.
+   2026-06-24T11:36:10.27+0000 [APP/PROC/WEB/0] OUT Invoking start command.
+   2026-06-24T11:36:10.81+0000 [APP/PROC/WEB/0] OUT > start
+   2026-06-24T11:36:10.81+0000 [APP/PROC/WEB/0] OUT > node node_modules/@sap/approuter/approuter.js
+   2026-06-24T11:36:11.07+0000 [APP/PROC/WEB/0] OUT {"written_at":"2026-06-24T11:36:11.072Z","written_ts":1782300971072000000,"csn_component":"-","correlation_id":"-","type":"log","logger":"nodejs-logger","layer":"/LoggingLibrary","level":"warning","container_id":"10.32.1.6","component_type":"application","component_id":"304059af-b542-421c-9865-6ce5b54c18ff","component_name":"EPM","component_instance":-1,"source_instance":-1,"organization_id":"789aa033-f659-4ca4-a591-bf9d3c539fcd","organization_name":"ca497a98trial","space_id":"2b197de0-4164-4b4b-a753-5e60fdc57e12","space_name":"dev","context_id":"","msg":"Dynamic log level switching not available"}
+   2026-06-24T11:36:11.69+0000 [APP/PROC/WEB/0] OUT {"written_at":"2026-06-24T11:36:11.695Z","written_ts":1782300971695000000,"csn_component":"-","correlation_id":"mqrzzb8w","type":"log","logger":"nodejs-logger","layer":"/approuter","level":"info","container_id":"10.32.1.6","component_type":"application","component_id":"304059af-b542-421c-9865-6ce5b54c18ff","component_name":"EPM","component_instance":-1,"source_instance":-1,"organization_id":"789aa033-f659-4ca4-a591-bf9d3c539fcd","organization_name":"ca497a98trial","space_id":"2b197de0-4164-4b4b-a753-5e60fdc57e12","space_name":"dev","context_id":"mqrzzb8w","msg":"Application router version 21.5.0"}
+   2026-06-24T11:36:11.70+0000 [APP/PROC/WEB/0] OUT {"written_at":"2026-06-24T11:36:11.702Z","written_ts":1782300971702000000,"csn_component":"-","correlation_id":"mqrzzb92","type":"log","logger":"nodejs-logger","layer":"/Configuration","level":"info","container_id":"10.32.1.6","component_type":"application","component_id":"304059af-b542-421c-9865-6ce5b54c18ff","component_name":"EPM","component_instance":-1,"source_instance":-1,"organization_id":"789aa033-f659-4ca4-a591-bf9d3c539fcd","organization_name":"ca497a98trial","space_id":"2b197de0-4164-4b4b-a753-5e60fdc57e12","space_name":"dev","context_id":"mqrzzb92","msg":"No COOKIES environment variable"}
+   2026-06-24T11:36:11.71+0000 [APP/PROC/WEB/0] ERR /home/vcap/app/node_modules/@sap/approuter/lib/utils/JsonValidator.js:30
+   2026-06-24T11:36:11.71+0000 [APP/PROC/WEB/0] ERR throw new VError('%s%s: %s',
+   2026-06-24T11:36:11.71+0000 [APP/PROC/WEB/0] ERR ^
+   2026-06-24T11:36:11.71+0000 [APP/PROC/WEB/0] ERR VError: xs-app.json/routes/1: Format validation failed (/home/vcap/app/webapp is not a directory)
+   2026-06-24T11:36:11.71+0000 [APP/PROC/WEB/0] ERR at JsonValidator.validate (/home/vcap/app/node_modules/@sap/approuter/lib/utils/JsonValidator.js:30:11)
+   2026-06-24T11:36:11.71+0000 [APP/PROC/WEB/0] ERR at Object.validateXsApp (/home/vcap/app/node_modules/@sap/approuter/lib/configuration/validators.js:168:15)
+   2026-06-24T11:36:11.71+0000 [APP/PROC/WEB/0] ERR at exports.loadConfiguration (/home/vcap/app/node_modules/@sap/approuter/lib/configuration/app-config.js:21:14)
+   2026-06-24T11:36:11.71+0000 [APP/PROC/WEB/0] ERR at module.exports.load (/home/vcap/app/node_modules/@sap/approuter/lib/configuration.js:24:34)
+   2026-06-24T11:36:11.71+0000 [APP/PROC/WEB/0] ERR at bootstrap (/home/vcap/app/node_modules/@sap/approuter/lib/bootstrap.js:68:38)
+   2026-06-24T11:36:11.71+0000 [APP/PROC/WEB/0] ERR at Approuter.start (/home/vcap/app/node_modules/@sap/approuter/approuter.js:71:13)
+   2026-06-24T11:36:11.71+0000 [APP/PROC/WEB/0] ERR at Object.<anonymous> (/home/vcap/app/node_modules/@sap/approuter/approuter.js:178:6)
+   2026-06-24T11:36:11.71+0000 [APP/PROC/WEB/0] ERR at Module._compile (node:internal/modules/cjs/loader:1705:14)
+   2026-06-24T11:36:11.71+0000 [APP/PROC/WEB/0] ERR at Object..js (node:internal/modules/cjs/loader:1838:10)
+   2026-06-24T11:36:11.71+0000 [APP/PROC/WEB/0] ERR at Module.load (node:internal/modules/cjs/loader:1441:32) {
+   2026-06-24T11:36:11.71+0000 [APP/PROC/WEB/0] ERR jse_shortmsg: 'xs-app.json/routes/1: Format validation failed (/home/vcap/app/webapp is not a directory)',
+   2026-06-24T11:36:11.71+0000 [APP/PROC/WEB/0] ERR jse_info: {}
+   2026-06-24T11:36:11.71+0000 [APP/PROC/WEB/0] ERR }
+   2026-06-24T11:36:11.71+0000 [APP/PROC/WEB/0] ERR Node.js v22.22.2
+   2026-06-24T11:36:11.72+0000 [APP/PROC/WEB/0] ERR npm notice
+   2026-06-24T11:36:11.72+0000 [APP/PROC/WEB/0] ERR npm notice New major version of npm available! 10.9.7 -> 11.17.0
+   2026-06-24T11:36:11.72+0000 [APP/PROC/WEB/0] ERR npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.17.0
+   2026-06-24T11:36:11.72+0000 [APP/PROC/WEB/0] ERR npm notice To update run: npm install -g npm@11.17.0
+   2026-06-24T11:36:11.72+0000 [APP/PROC/WEB/0] ERR npm notice
+   2026-06-24T11:36:11.81+0000 [APP/PROC/WEB/0] OUT Exit status 1
+   2026-06-24T11:36:21.45+0000 [CELL/0] OUT Cell 54b50d35-322b-4617-baa3-c13476b47cb5 stopping instance 0e701e15-ee11-469d-5c51-8ac6
+   2026-06-24T11:36:21.45+0000 [CELL/0] OUT Cell 54b50d35-322b-4617-baa3-c13476b47cb5 destroying container for instance 0e701e15-ee11-469d-5c51-8ac6
+   2026-06-24T11:36:21.45+0000 [API/13] OUT Process has crashed with type: "web"
+   2026-06-24T11:36:21.47+0000 [API/13] OUT App instance exited with guid 304059af-b542-421c-9865-6ce5b54c18ff payload: {"instance"=>"0e701e15-ee11-469d-5c51-8ac6", "index"=>0, "cell_id"=>"54b50d35-322b-4617-baa3-c13476b47cb5", "reason"=>"CRASHED", "exit_description"=>"APP/PROC/WEB: Exited with status 1", "crash_count"=>2, "crash_timestamp"=>1782300981423799406, "version"=>"f397b90f-9f92-40ed-949c-af116725d112"}
+   2026-06-24T11:36:21.52+0000 [CELL/0] OUT Cell 3697da87-6170-41a4-acb7-9186f1527dfa creating container for instance 641760ed-1dba-4087-4b45-a7c7
+   2026-06-24T11:36:21.63+0000 [PROXY/0] OUT Exit status 137
+   2026-06-24T11:36:22.27+0000 [CELL/0] OUT Security group rules were updated
+   2026-06-24T11:36:22.40+0000 [CELL/0] OUT Cell 3697da87-6170-41a4-acb7-9186f1527dfa successfully created container for instance 641760ed-1dba-4087-4b45-a7c7
+   2026-06-24T11:36:22.95+0000 [CELL/0] OUT Downloading droplet...
+   2026-06-24T11:36:24.59+0000 [CELL/0] OUT Cell 54b50d35-322b-4617-baa3-c13476b47cb5 successfully destroyed container for instance 0e701e15-ee11-469d-5c51-8ac6
+   2026-06-24T11:36:24.74+0000 [CELL/0] OUT Downloaded droplet
+   2026-06-24T11:36:24.74+0000 [CELL/0] OUT Starting health monitoring of container
+   2026-06-24T11:36:24.91+0000 [APP/PROC/WEB/0] OUT Invoking pre-start scripts.
+   2026-06-24T11:36:25.19+0000 [APP/PROC/WEB/0] OUT Invoking start command.
+   2026-06-24T11:36:25.66+0000 [APP/PROC/WEB/0] OUT > start
+   2026-06-24T11:36:25.66+0000 [APP/PROC/WEB/0] OUT > node node_modules/@sap/approuter/approuter.js
+   2026-06-24T11:36:25.87+0000 [APP/PROC/WEB/0] OUT {"written_at":"2026-06-24T11:36:25.875Z","written_ts":1782300985875000000,"csn_component":"-","correlation_id":"-","type":"log","logger":"nodejs-logger","layer":"/LoggingLibrary","level":"warning","container_id":"10.32.2.7","component_type":"application","component_id":"304059af-b542-421c-9865-6ce5b54c18ff","component_name":"EPM","component_instance":-1,"source_instance":-1,"organization_id":"789aa033-f659-4ca4-a591-bf9d3c539fcd","organization_name":"ca497a98trial","space_id":"2b197de0-4164-4b4b-a753-5e60fdc57e12","space_name":"dev","context_id":"","msg":"Dynamic log level switching not available"}
+   2026-06-24T11:36:26.46+0000 [APP/PROC/WEB/0] OUT {"written_at":"2026-06-24T11:36:26.462Z","written_ts":1782300986462000000,"csn_component":"-","correlation_id":"mqrzzmn2","type":"log","logger":"nodejs-logger","layer":"/approuter","level":"info","container_id":"10.32.2.7","component_type":"application","component_id":"304059af-b542-421c-9865-6ce5b54c18ff","component_name":"EPM","component_instance":-1,"source_instance":-1,"organization_id":"789aa033-f659-4ca4-a591-bf9d3c539fcd","organization_name":"ca497a98trial","space_id":"2b197de0-4164-4b4b-a753-5e60fdc57e12","space_name":"dev","context_id":"mqrzzmn2","msg":"Application router version 21.5.0"}
+   2026-06-24T11:36:26.46+0000 [APP/PROC/WEB/0] OUT {"written_at":"2026-06-24T11:36:26.468Z","written_ts":1782300986468000000,"csn_component":"-","correlation_id":"mqrzzmn8","type":"log","logger":"nodejs-logger","layer":"/Configuration","level":"info","container_id":"10.32.2.7","component_type":"application","component_id":"304059af-b542-421c-9865-6ce5b54c18ff","component_name":"EPM","component_instance":-1,"source_instance":-1,"organization_id":"789aa033-f659-4ca4-a591-bf9d3c539fcd","organization_name":"ca497a98trial","space_id":"2b197de0-4164-4b4b-a753-5e60fdc57e12","space_name":"dev","context_id":"mqrzzmn8","msg":"No COOKIES environment variable"}
+   2026-06-24T11:36:26.47+0000 [APP/PROC/WEB/0] ERR /home/vcap/app/node_modules/@sap/approuter/lib/utils/JsonValidator.js:30
+   2026-06-24T11:36:26.47+0000 [APP/PROC/WEB/0] ERR throw new VError('%s%s: %s',
+   2026-06-24T11:36:26.47+0000 [APP/PROC/WEB/0] ERR ^
+   2026-06-24T11:36:26.47+0000 [APP/PROC/WEB/0] ERR VError: xs-app.json/routes/1: Format validation failed (/home/vcap/app/webapp is not a directory)
+   2026-06-24T11:36:26.47+0000 [APP/PROC/WEB/0] ERR at JsonValidator.validate (/home/vcap/app/node_modules/@sap/approuter/lib/utils/JsonValidator.js:30:11)
+   2026-06-24T11:36:26.47+0000 [APP/PROC/WEB/0] ERR at Object.validateXsApp (/home/vcap/app/node_modules/@sap/approuter/lib/configuration/validators.js:168:15)
+   2026-06-24T11:36:26.47+0000 [APP/PROC/WEB/0] ERR at exports.loadConfiguration (/home/vcap/app/node_modules/@sap/approuter/lib/configuration/app-config.js:21:14)
+   2026-06-24T11:36:26.47+0000 [APP/PROC/WEB/0] ERR at module.exports.load (/home/vcap/app/node_modules/@sap/approuter/lib/configuration.js:24:34)
+   2026-06-24T11:36:26.47+0000 [APP/PROC/WEB/0] ERR at bootstrap (/home/vcap/app/node_modules/@sap/approuter/lib/bootstrap.js:68:38)
+   2026-06-24T11:36:26.47+0000 [APP/PROC/WEB/0] ERR at Approuter.start (/home/vcap/app/node_modules/@sap/approuter/approuter.js:71:13)
+   2026-06-24T11:36:26.47+0000 [APP/PROC/WEB/0] ERR at Object.<anonymous> (/home/vcap/app/node_modules/@sap/approuter/approuter.js:178:6)
+   2026-06-24T11:36:26.47+0000 [APP/PROC/WEB/0] ERR at Module._compile (node:internal/modules/cjs/loader:1705:14)
+   2026-06-24T11:36:26.47+0000 [APP/PROC/WEB/0] ERR at Object..js (node:internal/modules/cjs/loader:1838:10)
+   2026-06-24T11:36:26.47+0000 [APP/PROC/WEB/0] ERR at Module.load (node:internal/modules/cjs/loader:1441:32) {
+   2026-06-24T11:36:26.47+0000 [APP/PROC/WEB/0] ERR jse_shortmsg: 'xs-app.json/routes/1: Format validation failed (/home/vcap/app/webapp is not a directory)',
+   2026-06-24T11:36:26.47+0000 [APP/PROC/WEB/0] ERR jse_info: {}
+   2026-06-24T11:36:26.47+0000 [APP/PROC/WEB/0] ERR }
+   2026-06-24T11:36:26.47+0000 [APP/PROC/WEB/0] ERR Node.js v22.22.2
+   2026-06-24T11:36:26.48+0000 [APP/PROC/WEB/0] ERR npm notice
+   2026-06-24T11:36:26.48+0000 [APP/PROC/WEB/0] ERR npm notice New major version of npm available! 10.9.7 -> 11.17.0
+   2026-06-24T11:36:26.48+0000 [APP/PROC/WEB/0] ERR npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.17.0
+   2026-06-24T11:36:26.48+0000 [APP/PROC/WEB/0] ERR npm notice To update run: npm install -g npm@11.17.0
+   2026-06-24T11:36:26.48+0000 [APP/PROC/WEB/0] ERR npm notice
+   2026-06-24T11:36:26.55+0000 [APP/PROC/WEB/0] OUT Exit status 1
+   2026-06-24T11:36:33.98+0000 [CELL/0] OUT Cell 3697da87-6170-41a4-acb7-9186f1527dfa stopping instance 641760ed-1dba-4087-4b45-a7c7
+   2026-06-24T11:36:33.98+0000 [CELL/0] OUT Cell 3697da87-6170-41a4-acb7-9186f1527dfa destroying container for instance 641760ed-1dba-4087-4b45-a7c7
+   2026-06-24T11:36:34.01+0000 [API/12] OUT Process has crashed with type: "web"
+   2026-06-24T11:36:34.03+0000 [API/12] OUT App instance exited with guid 304059af-b542-421c-9865-6ce5b54c18ff payload: {"instance"=>"641760ed-1dba-4087-4b45-a7c7", "index"=>0, "cell_id"=>"3697da87-6170-41a4-acb7-9186f1527dfa", "reason"=>"CRASHED", "exit_description"=>"APP/PROC/WEB: Exited with status 1", "crash_count"=>3, "crash_timestamp"=>1782300993982995933, "version"=>"f397b90f-9f92-40ed-949c-af116725d112"}
+   2026-06-24T11:36:34.14+0000 [PROXY/0] OUT Exit status 137
+   2026-06-24T11:36:37.03+0000 [CELL/0] OUT Cell 3697da87-6170-41a4-acb7-9186f1527dfa successfully destroyed container for instance 641760ed-1dba-4087-4b45-a7c7
+   2026-06-24T11:36:38.18+0000 [API/7] OUT Stopping app with guid 304059af-b542-421c-9865-6ce5b54c18ff
+   2026-06-24T11:36:38.37+0000 [API/5] OUT Starting app with guid 304059af-b542-421c-9865-6ce5b54c18ff
+   2026-06-24T11:36:38.57+0000 [CELL/0] OUT Cell 3697da87-6170-41a4-acb7-9186f1527dfa creating container for instance 6324e464-17e0-4026-5dd4-2648
+   2026-06-24T11:36:39.46+0000 [CELL/0] OUT Security group rules were updated
+   2026-06-24T11:36:39.57+0000 [CELL/0] OUT Cell 3697da87-6170-41a4-acb7-9186f1527dfa successfully created container for instance 6324e464-17e0-4026-5dd4-2648
+   2026-06-24T11:36:41.07+0000 [CELL/0] OUT Downloading droplet...
+   2026-06-24T11:36:46.45+0000 [CELL/0] OUT Downloaded droplet (62.2M)
+   2026-06-24T11:36:46.45+0000 [CELL/0] OUT Starting health monitoring of container
+   2026-06-24T11:36:46.63+0000 [APP/PROC/WEB/0] OUT Invoking pre-start scripts.
+   2026-06-24T11:36:46.87+0000 [APP/PROC/WEB/0] OUT Invoking start command.
+   2026-06-24T11:36:47.30+0000 [APP/PROC/WEB/0] OUT > start
+   2026-06-24T11:36:47.30+0000 [APP/PROC/WEB/0] OUT > node node_modules/@sap/approuter/approuter.js
+   2026-06-24T11:36:47.50+0000 [APP/PROC/WEB/0] OUT {"written_at":"2026-06-24T11:36:47.499Z","written_ts":1782301007499000000,"csn_component":"-","correlation_id":"-","type":"log","logger":"nodejs-logger","layer":"/LoggingLibrary","level":"warning","container_id":"10.32.2.7","component_type":"application","component_id":"304059af-b542-421c-9865-6ce5b54c18ff","component_name":"EPM","component_instance":-1,"source_instance":-1,"organization_id":"789aa033-f659-4ca4-a591-bf9d3c539fcd","organization_name":"ca497a98trial","space_id":"2b197de0-4164-4b4b-a753-5e60fdc57e12","space_name":"dev","context_id":"","msg":"Dynamic log level switching not available"}
+   2026-06-24T11:36:48.00+0000 [APP/PROC/WEB/0] OUT {"written_at":"2026-06-24T11:36:48.007Z","written_ts":1782301008007000000,"csn_component":"-","correlation_id":"mqs0039j","type":"log","logger":"nodejs-logger","layer":"/approuter","level":"info","container_id":"10.32.2.7","component_type":"application","component_id":"304059af-b542-421c-9865-6ce5b54c18ff","component_name":"EPM","component_instance":-1,"source_instance":-1,"organization_id":"789aa033-f659-4ca4-a591-bf9d3c539fcd","organization_name":"ca497a98trial","space_id":"2b197de0-4164-4b4b-a753-5e60fdc57e12","space_name":"dev","context_id":"mqs0039j","msg":"Application router version 21.5.0"}
+   2026-06-24T11:36:48.01+0000 [APP/PROC/WEB/0] OUT {"written_at":"2026-06-24T11:36:48.013Z","written_ts":1782301008013000000,"csn_component":"-","correlation_id":"mqs0039p","type":"log","logger":"nodejs-logger","layer":"/Configuration","level":"info","container_id":"10.32.2.7","component_type":"application","component_id":"304059af-b542-421c-9865-6ce5b54c18ff","component_name":"EPM","component_instance":-1,"source_instance":-1,"organization_id":"789aa033-f659-4ca4-a591-bf9d3c539fcd","organization_name":"ca497a98trial","space_id":"2b197de0-4164-4b4b-a753-5e60fdc57e12","space_name":"dev","context_id":"mqs0039p","msg":"No COOKIES environment variable"}
+   2026-06-24T11:36:48.02+0000 [APP/PROC/WEB/0] ERR /home/vcap/app/node_modules/@sap/approuter/lib/utils/JsonValidator.js:30
+   2026-06-24T11:36:48.02+0000 [APP/PROC/WEB/0] ERR throw new VError('%s%s: %s',
+   2026-06-24T11:36:48.02+0000 [APP/PROC/WEB/0] ERR ^
+   2026-06-24T11:36:48.02+0000 [APP/PROC/WEB/0] ERR VError: xs-app.json/routes/1: Format validation failed (/home/vcap/app/webapp is not a directory)
+   2026-06-24T11:36:48.02+0000 [APP/PROC/WEB/0] ERR at JsonValidator.validate (/home/vcap/app/node_modules/@sap/approuter/lib/utils/JsonValidator.js:30:11)
+   2026-06-24T11:36:48.02+0000 [APP/PROC/WEB/0] ERR at Object.validateXsApp (/home/vcap/app/node_modules/@sap/approuter/lib/configuration/validators.js:168:15)
+   2026-06-24T11:36:48.02+0000 [APP/PROC/WEB/0] ERR at exports.loadConfiguration (/home/vcap/app/node_modules/@sap/approuter/lib/configuration/app-config.js:21:14)
+   2026-06-24T11:36:48.02+0000 [APP/PROC/WEB/0] ERR at module.exports.load (/home/vcap/app/node_modules/@sap/approuter/lib/configuration.js:24:34)
+   2026-06-24T11:36:48.02+0000 [APP/PROC/WEB/0] ERR at bootstrap (/home/vcap/app/node_modules/@sap/approuter/lib/bootstrap.js:68:38)
+   2026-06-24T11:36:48.02+0000 [APP/PROC/WEB/0] ERR at Approuter.start (/home/vcap/app/node_modules/@sap/approuter/approuter.js:71:13)
+   2026-06-24T11:36:48.02+0000 [APP/PROC/WEB/0] ERR at Object.<anonymous> (/home/vcap/app/node_modules/@sap/approuter/approuter.js:178:6)
+   2026-06-24T11:36:48.02+0000 [APP/PROC/WEB/0] ERR at Module._compile (node:internal/modules/cjs/loader:1705:14)
+   2026-06-24T11:36:48.02+0000 [APP/PROC/WEB/0] ERR at Object..js (node:internal/modules/cjs/loader:1838:10)
+   2026-06-24T11:36:48.02+0000 [APP/PROC/WEB/0] ERR at Module.load (node:internal/modules/cjs/loader:1441:32) {
+   2026-06-24T11:36:48.02+0000 [APP/PROC/WEB/0] ERR jse_shortmsg: 'xs-app.json/routes/1: Format validation failed (/home/vcap/app/webapp is not a directory)',
+   2026-06-24T11:36:48.02+0000 [APP/PROC/WEB/0] ERR jse_info: {}
+   2026-06-24T11:36:48.02+0000 [APP/PROC/WEB/0] ERR }
+   2026-06-24T11:36:48.02+0000 [APP/PROC/WEB/0] ERR Node.js v22.22.2
+   2026-06-24T11:36:48.03+0000 [APP/PROC/WEB/0] ERR npm notice
+   2026-06-24T11:36:48.03+0000 [APP/PROC/WEB/0] ERR npm notice New major version of npm available! 10.9.7 -> 11.17.0
+   2026-06-24T11:36:48.03+0000 [APP/PROC/WEB/0] ERR npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.17.0
+   2026-06-24T11:36:48.03+0000 [APP/PROC/WEB/0] ERR npm notice To update run: npm install -g npm@11.17.0
+   2026-06-24T11:36:48.03+0000 [APP/PROC/WEB/0] ERR npm notice
+   2026-06-24T11:36:48.10+0000 [APP/PROC/WEB/0] OUT Exit status 1
+   2026-06-24T11:36:55.13+0000 [CELL/0] OUT Cell 3697da87-6170-41a4-acb7-9186f1527dfa stopping instance 6324e464-17e0-4026-5dd4-2648
+   2026-06-24T11:36:55.13+0000 [CELL/0] OUT Cell 3697da87-6170-41a4-acb7-9186f1527dfa destroying container for instance 6324e464-17e0-4026-5dd4-2648
+   2026-06-24T11:36:55.13+0000 [API/0] OUT Process has crashed with type: "web"
+   2026-06-24T11:36:55.15+0000 [API/0] OUT App instance exited with guid 304059af-b542-421c-9865-6ce5b54c18ff payload: {"instance"=>"6324e464-17e0-4026-5dd4-2648", "index"=>0, "cell_id"=>"3697da87-6170-41a4-acb7-9186f1527dfa", "reason"=>"CRASHED", "exit_description"=>"APP/PROC/WEB: Exited with status 1", "crash_count"=>1, "crash_timestamp"=>1782301015105381012, "version"=>"f2c921a6-69c5-43bd-90b9-b8c7e85b3e4c"}
+   2026-06-24T11:36:55.20+0000 [CELL/0] OUT Cell 54b50d35-322b-4617-baa3-c13476b47cb5 creating container for instance b41611cc-b85f-474e-73c5-807e
+   2026-06-24T11:36:55.27+0000 [PROXY/0] OUT Exit status 137
+   2026-06-24T11:36:56.30+0000 [CELL/0] OUT Security group rules were updated
+   2026-06-24T11:36:56.42+0000 [CELL/0] OUT Cell 54b50d35-322b-4617-baa3-c13476b47cb5 successfully created container for instance b41611cc-b85f-474e-73c5-807e
+   2026-06-24T11:36:57.54+0000 [CELL/0] OUT Downloading droplet...
+   2026-06-24T11:36:57.98+0000 [CELL/0] OUT Cell 3697da87-6170-41a4-acb7-9186f1527dfa successfully destroyed container for instance 6324e464-17e0-4026-5dd4-2648
+   2026-06-24T11:37:03.41+0000 [CELL/0] OUT Downloaded droplet (62.2M)
+   2026-06-24T11:37:03.41+0000 [CELL/0] OUT Starting health monitoring of container
+   2026-06-24T11:37:03.55+0000 [APP/PROC/WEB/0] OUT Invoking pre-start scripts.
+   2026-06-24T11:37:03.82+0000 [APP/PROC/WEB/0] OUT Invoking start command.
+   2026-06-24T11:37:04.29+0000 [APP/PROC/WEB/0] OUT > start
+   2026-06-24T11:37:04.29+0000 [APP/PROC/WEB/0] OUT > node node_modules/@sap/approuter/approuter.js
+   2026-06-24T11:37:04.49+0000 [APP/PROC/WEB/0] OUT {"written_at":"2026-06-24T11:37:04.490Z","written_ts":1782301024490000000,"csn_component":"-","correlation_id":"-","type":"log","logger":"nodejs-logger","layer":"/LoggingLibrary","level":"warning","container_id":"10.32.1.6","component_type":"application","component_id":"304059af-b542-421c-9865-6ce5b54c18ff","component_name":"EPM","component_instance":-1,"source_instance":-1,"organization_id":"789aa033-f659-4ca4-a591-bf9d3c539fcd","organization_name":"ca497a98trial","space_id":"2b197de0-4164-4b4b-a753-5e60fdc57e12","space_name":"dev","context_id":"","msg":"Dynamic log level switching not available"}
+   2026-06-24T11:37:05.00+0000 [APP/PROC/WEB/0] OUT {"written_at":"2026-06-24T11:37:05.004Z","written_ts":1782301025004000000,"csn_component":"-","correlation_id":"mqs00gdo","type":"log","logger":"nodejs-logger","layer":"/approuter","level":"info","container_id":"10.32.1.6","component_type":"application","component_id":"304059af-b542-421c-9865-6ce5b54c18ff","component_name":"EPM","component_instance":-1,"source_instance":-1,"organization_id":"789aa033-f659-4ca4-a591-bf9d3c539fcd","organization_name":"ca497a98trial","space_id":"2b197de0-4164-4b4b-a753-5e60fdc57e12","space_name":"dev","context_id":"mqs00gdo","msg":"Application router version 21.5.0"}
+   2026-06-24T11:37:05.01+0000 [APP/PROC/WEB/0] OUT {"written_at":"2026-06-24T11:37:05.010Z","written_ts":1782301025010000000,"csn_component":"-","correlation_id":"mqs00gdu","type":"log","logger":"nodejs-logger","layer":"/Configuration","level":"info","container_id":"10.32.1.6","component_type":"application","component_id":"304059af-b542-421c-9865-6ce5b54c18ff","component_name":"EPM","component_instance":-1,"source_instance":-1,"organization_id":"789aa033-f659-4ca4-a591-bf9d3c539fcd","organization_name":"ca497a98trial","space_id":"2b197de0-4164-4b4b-a753-5e60fdc57e12","space_name":"dev","context_id":"mqs00gdu","msg":"No COOKIES environment variable"}
+   2026-06-24T11:37:05.01+0000 [APP/PROC/WEB/0] ERR /home/vcap/app/node_modules/@sap/approuter/lib/utils/JsonValidator.js:30
+   2026-06-24T11:37:05.01+0000 [APP/PROC/WEB/0] ERR throw new VError('%s%s: %s',
+   2026-06-24T11:37:05.01+0000 [APP/PROC/WEB/0] ERR ^
+   2026-06-24T11:37:05.01+0000 [APP/PROC/WEB/0] ERR VError: xs-app.json/routes/1: Format validation failed (/home/vcap/app/webapp is not a directory)
+   2026-06-24T11:37:05.01+0000 [APP/PROC/WEB/0] ERR at JsonValidator.validate (/home/vcap/app/node_modules/@sap/approuter/lib/utils/JsonValidator.js:30:11)
+   2026-06-24T11:37:05.01+0000 [APP/PROC/WEB/0] ERR at Object.validateXsApp (/home/vcap/app/node_modules/@sap/approuter/lib/configuration/validators.js:168:15)
+   2026-06-24T11:37:05.01+0000 [APP/PROC/WEB/0] ERR at exports.loadConfiguration (/home/vcap/app/node_modules/@sap/approuter/lib/configuration/app-config.js:21:14)
+   2026-06-24T11:37:05.01+0000 [APP/PROC/WEB/0] ERR at module.exports.load (/home/vcap/app/node_modules/@sap/approuter/lib/configuration.js:24:34)
+   2026-06-24T11:37:05.01+0000 [APP/PROC/WEB/0] ERR at bootstrap (/home/vcap/app/node_modules/@sap/approuter/lib/bootstrap.js:68:38)
+   2026-06-24T11:37:05.01+0000 [APP/PROC/WEB/0] ERR at Approuter.start (/home/vcap/app/node_modules/@sap/approuter/approuter.js:71:13)
+   2026-06-24T11:37:05.01+0000 [APP/PROC/WEB/0] ERR at Object.<anonymous> (/home/vcap/app/node_modules/@sap/approuter/approuter.js:178:6)
+   2026-06-24T11:37:05.01+0000 [APP/PROC/WEB/0] ERR at Module._compile (node:internal/modules/cjs/loader:1705:14)
+   2026-06-24T11:37:05.01+0000 [APP/PROC/WEB/0] ERR at Object..js (node:internal/modules/cjs/loader:1838:10)
+   2026-06-24T11:37:05.01+0000 [APP/PROC/WEB/0] ERR at Module.load (node:internal/modules/cjs/loader:1441:32) {
+   2026-06-24T11:37:05.01+0000 [APP/PROC/WEB/0] ERR jse_shortmsg: 'xs-app.json/routes/1: Format validation failed (/home/vcap/app/webapp is not a directory)',
+   2026-06-24T11:37:05.01+0000 [APP/PROC/WEB/0] ERR jse_info: {}
+   2026-06-24T11:37:05.01+0000 [APP/PROC/WEB/0] ERR }
+   2026-06-24T11:37:05.01+0000 [APP/PROC/WEB/0] ERR Node.js v22.22.2
+   2026-06-24T11:37:05.03+0000 [APP/PROC/WEB/0] ERR npm notice
+   2026-06-24T11:37:05.03+0000 [APP/PROC/WEB/0] ERR npm notice New major version of npm available! 10.9.7 -> 11.17.0
+   2026-06-24T11:37:05.03+0000 [APP/PROC/WEB/0] ERR npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.17.0
+   2026-06-24T11:37:05.03+0000 [APP/PROC/WEB/0] ERR npm notice To update run: npm install -g npm@11.17.0
+   2026-06-24T11:37:05.03+0000 [APP/PROC/WEB/0] ERR npm notice
+   2026-06-24T11:37:05.10+0000 [APP/PROC/WEB/0] OUT Exit status 1
+   2026-06-24T11:37:12.00+0000 [CELL/0] OUT Cell 54b50d35-322b-4617-baa3-c13476b47cb5 stopping instance b41611cc-b85f-474e-73c5-807e
+   2026-06-24T11:37:12.01+0000 [CELL/0] OUT Cell 54b50d35-322b-4617-baa3-c13476b47cb5 destroying container for instance b41611cc-b85f-474e-73c5-807e
+   2026-06-24T11:37:12.01+0000 [API/2] OUT Process has crashed with type: "web"
+   2026-06-24T11:37:12.03+0000 [API/2] OUT App instance exited with guid 304059af-b542-421c-9865-6ce5b54c18ff payload: {"instance"=>"b41611cc-b85f-474e-73c5-807e", "index"=>0, "cell_id"=>"54b50d35-322b-4617-baa3-c13476b47cb5", "reason"=>"CRASHED", "exit_description"=>"APP/PROC/WEB: Exited with status 1", "crash_count"=>2, "crash_timestamp"=>1782301031982057892, "version"=>"f2c921a6-69c5-43bd-90b9-b8c7e85b3e4c"}
+   2026-06-24T11:37:12.07+0000 [CELL/0] OUT Cell 3697da87-6170-41a4-acb7-9186f1527dfa creating container for instance bde11081-94f7-4179-76ca-df59
+   2026-06-24T11:37:12.21+0000 [PROXY/0] OUT Exit status 137
+   2026-06-24T11:37:12.88+0000 [CELL/0] OUT Security group rules were updated
+   2026-06-24T11:37:13.02+0000 [CELL/0] OUT Cell 3697da87-6170-41a4-acb7-9186f1527dfa successfully created container for instance bde11081-94f7-4179-76ca-df59
+   2026-06-24T11:37:13.74+0000 [CELL/0] OUT Downloading droplet...
+   2026-06-24T11:37:15.14+0000 [CELL/0] OUT Cell 54b50d35-322b-4617-baa3-c13476b47cb5 successfully destroyed container for instance b41611cc-b85f-474e-73c5-807e
+   2026-06-24T11:37:15.52+0000 [CELL/0] OUT Downloaded droplet
+   2026-06-24T11:37:15.52+0000 [CELL/0] OUT Starting health monitoring of container
+   2026-06-24T11:37:15.64+0000 [APP/PROC/WEB/0] OUT Invoking pre-start scripts.
+   2026-06-24T11:37:15.89+0000 [APP/PROC/WEB/0] OUT Invoking start command.
+   2026-06-24T11:37:16.34+0000 [APP/PROC/WEB/0] OUT > start
+   2026-06-24T11:37:16.34+0000 [APP/PROC/WEB/0] OUT > node node_modules/@sap/approuter/approuter.js
+   2026-06-24T11:37:16.56+0000 [APP/PROC/WEB/0] OUT {"written_at":"2026-06-24T11:37:16.567Z","written_ts":1782301036567000000,"csn_component":"-","correlation_id":"-","type":"log","logger":"nodejs-logger","layer":"/LoggingLibrary","level":"warning","container_id":"10.32.2.7","component_type":"application","component_id":"304059af-b542-421c-9865-6ce5b54c18ff","component_name":"EPM","component_instance":-1,"source_instance":-1,"organization_id":"789aa033-f659-4ca4-a591-bf9d3c539fcd","organization_name":"ca497a98trial","space_id":"2b197de0-4164-4b4b-a753-5e60fdc57e12","space_name":"dev","context_id":"","msg":"Dynamic log level switching not available"}
+   2026-06-24T11:37:17.14+0000 [APP/PROC/WEB/0] OUT {"written_at":"2026-06-24T11:37:17.143Z","written_ts":1782301037143000000,"csn_component":"-","correlation_id":"mqs00pqv","type":"log","logger":"nodejs-logger","layer":"/approuter","level":"info","container_id":"10.32.2.7","component_type":"application","component_id":"304059af-b542-421c-9865-6ce5b54c18ff","component_name":"EPM","component_instance":-1,"source_instance":-1,"organization_id":"789aa033-f659-4ca4-a591-bf9d3c539fcd","organization_name":"ca497a98trial","space_id":"2b197de0-4164-4b4b-a753-5e60fdc57e12","space_name":"dev","context_id":"mqs00pqv","msg":"Application router version 21.5.0"}
+   2026-06-24T11:37:17.14+0000 [APP/PROC/WEB/0] OUT {"written_at":"2026-06-24T11:37:17.149Z","written_ts":1782301037149000000,"csn_component":"-","correlation_id":"mqs00pr1","type":"log","logger":"nodejs-logger","layer":"/Configuration","level":"info","container_id":"10.32.2.7","component_type":"application","component_id":"304059af-b542-421c-9865-6ce5b54c18ff","component_name":"EPM","component_instance":-1,"source_instance":-1,"organization_id":"789aa033-f659-4ca4-a591-bf9d3c539fcd","organization_name":"ca497a98trial","space_id":"2b197de0-4164-4b4b-a753-5e60fdc57e12","space_name":"dev","context_id":"mqs00pr1","msg":"No COOKIES environment variable"}
+   2026-06-24T11:37:17.15+0000 [APP/PROC/WEB/0] ERR /home/vcap/app/node_modules/@sap/approuter/lib/utils/JsonValidator.js:30
+   2026-06-24T11:37:17.15+0000 [APP/PROC/WEB/0] ERR throw new VError('%s%s: %s',
+   2026-06-24T11:37:17.15+0000 [APP/PROC/WEB/0] ERR ^
+   2026-06-24T11:37:17.15+0000 [APP/PROC/WEB/0] ERR VError: xs-app.json/routes/1: Format validation failed (/home/vcap/app/webapp is not a directory)
+   2026-06-24T11:37:17.15+0000 [APP/PROC/WEB/0] ERR at JsonValidator.validate (/home/vcap/app/node_modules/@sap/approuter/lib/utils/JsonValidator.js:30:11)
+   2026-06-24T11:37:17.15+0000 [APP/PROC/WEB/0] ERR at Object.validateXsApp (/home/vcap/app/node_modules/@sap/approuter/lib/configuration/validators.js:168:15)
+   2026-06-24T11:37:17.15+0000 [APP/PROC/WEB/0] ERR at exports.loadConfiguration (/home/vcap/app/node_modules/@sap/approuter/lib/configuration/app-config.js:21:14)
+   2026-06-24T11:37:17.15+0000 [APP/PROC/WEB/0] ERR at module.exports.load (/home/vcap/app/node_modules/@sap/approuter/lib/configuration.js:24:34)
+   2026-06-24T11:37:17.15+0000 [APP/PROC/WEB/0] ERR at bootstrap (/home/vcap/app/node_modules/@sap/approuter/lib/bootstrap.js:68:38)
+   2026-06-24T11:37:17.15+0000 [APP/PROC/WEB/0] ERR at Approuter.start (/home/vcap/app/node_modules/@sap/approuter/approuter.js:71:13)
+   2026-06-24T11:37:17.15+0000 [APP/PROC/WEB/0] ERR at Object.<anonymous> (/home/vcap/app/node_modules/@sap/approuter/approuter.js:178:6)
+   2026-06-24T11:37:17.15+0000 [APP/PROC/WEB/0] ERR at Module._compile (node:internal/modules/cjs/loader:1705:14)
+   2026-06-24T11:37:17.15+0000 [APP/PROC/WEB/0] ERR at Object..js (node:internal/modules/cjs/loader:1838:10)
+   2026-06-24T11:37:17.15+0000 [APP/PROC/WEB/0] ERR at Module.load (node:internal/modules/cjs/loader:1441:32) {
+   2026-06-24T11:37:17.15+0000 [APP/PROC/WEB/0] ERR jse_shortmsg: 'xs-app.json/routes/1: Format validation failed (/home/vcap/app/webapp is not a directory)',
+   2026-06-24T11:37:17.15+0000 [APP/PROC/WEB/0] ERR jse_info: {}
+   2026-06-24T11:37:17.15+0000 [APP/PROC/WEB/0] ERR }
+   2026-06-24T11:37:17.15+0000 [APP/PROC/WEB/0] ERR Node.js v22.22.2
+   2026-06-24T11:37:17.16+0000 [APP/PROC/WEB/0] ERR npm notice
+   2026-06-24T11:37:17.16+0000 [APP/PROC/WEB/0] ERR npm notice New major version of npm available! 10.9.7 -> 11.17.0
+   2026-06-24T11:37:17.16+0000 [APP/PROC/WEB/0] ERR npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.17.0
+   2026-06-24T11:37:17.16+0000 [APP/PROC/WEB/0] ERR npm notice To update run: npm install -g npm@11.17.0
+   2026-06-24T11:37:17.16+0000 [APP/PROC/WEB/0] ERR npm notice
+   2026-06-24T11:37:17.23+0000 [APP/PROC/WEB/0] OUT Exit status 1
+   2026-06-24T11:37:24.91+0000 [CELL/0] OUT Cell 3697da87-6170-41a4-acb7-9186f1527dfa stopping instance bde11081-94f7-4179-76ca-df59
+   2026-06-24T11:37:24.91+0000 [CELL/0] OUT Cell 3697da87-6170-41a4-acb7-9186f1527dfa destroying container for instance bde11081-94f7-4179-76ca-df59
+   2026-06-24T11:37:24.94+0000 [API/12] OUT Process has crashed with type: "web"
+   2026-06-24T11:37:24.96+0000 [API/12] OUT App instance exited with guid 304059af-b542-421c-9865-6ce5b54c18ff payload: {"instance"=>"bde11081-94f7-4179-76ca-df59", "index"=>0, "cell_id"=>"3697da87-6170-41a4-acb7-9186f1527dfa", "reason"=>"CRASHED", "exit_description"=>"APP/PROC/WEB: Exited with status 1", "crash_count"=>3, "crash_timestamp"=>1782301044907773856, "version"=>"f2c921a6-69c5-43bd-90b9-b8c7e85b3e4c"}
+   2026-06-24T11:37:25.07+0000 [PROXY/0] OUT Exit status 137
+   2026-06-24T11:37:26.60+0000 [API/12] OUT Stopping app with guid 304059af-b542-421c-9865-6ce5b54c18ff
+   2026-06-24T11:37:26.78+0000 [API/6] OUT Starting app with guid 304059af-b542-421c-9865-6ce5b54c18ff
+   2026-06-24T11:37:27.04+0000 [CELL/0] OUT Cell 3697da87-6170-41a4-acb7-9186f1527dfa creating container for instance 9376c47b-8a17-46da-7f76-045a
+   2026-06-24T11:37:27.77+0000 [CELL/0] OUT Cell 3697da87-6170-41a4-acb7-9186f1527dfa successfully destroyed container for instance bde11081-94f7-4179-76ca-df59
+   2026-06-24T11:37:27.96+0000 [CELL/0] OUT Security group rules were updated
+   2026-06-24T11:37:28.15+0000 [CELL/0] OUT Cell 3697da87-6170-41a4-acb7-9186f1527dfa successfully created container for instance 9376c47b-8a17-46da-7f76-045a
+   2026-06-24T11:37:30.03+0000 [CELL/0] OUT Downloading droplet...
+   2026-06-24T11:37:34.93+0000 [CELL/0] OUT Downloaded droplet (62.2M)
+   2026-06-24T11:37:34.93+0000 [CELL/0] OUT Starting health monitoring of container
+   2026-06-24T11:37:35.07+0000 [APP/PROC/WEB/0] OUT Invoking pre-start scripts.
+   2026-06-24T11:37:35.31+0000 [APP/PROC/WEB/0] OUT Invoking start command.
+   2026-06-24T11:37:35.76+0000 [APP/PROC/WEB/0] OUT > start
+   2026-06-24T11:37:35.76+0000 [APP/PROC/WEB/0] OUT > node node_modules/@sap/approuter/approuter.js
+   2026-06-24T11:37:35.99+0000 [APP/PROC/WEB/0] OUT {"written_at":"2026-06-24T11:37:35.989Z","written_ts":1782301055989000000,"csn_component":"-","correlation_id":"-","type":"log","logger":"nodejs-logger","layer":"/LoggingLibrary","level":"warning","container_id":"10.32.2.7","component_type":"application","component_id":"304059af-b542-421c-9865-6ce5b54c18ff","component_name":"EPM","component_instance":-1,"source_instance":-1,"organization_id":"789aa033-f659-4ca4-a591-bf9d3c539fcd","organization_name":"ca497a98trial","space_id":"2b197de0-4164-4b4b-a753-5e60fdc57e12","space_name":"dev","context_id":"","msg":"Dynamic log level switching not available"}
+   2026-06-24T11:37:36.56+0000 [APP/PROC/WEB/0] OUT {"written_at":"2026-06-24T11:37:36.563Z","written_ts":1782301056563000000,"csn_component":"-","correlation_id":"mqs014qc","type":"log","logger":"nodejs-logger","layer":"/approuter","level":"info","container_id":"10.32.2.7","component_type":"application","component_id":"304059af-b542-421c-9865-6ce5b54c18ff","component_name":"EPM","component_instance":-1,"source_instance":-1,"organization_id":"789aa033-f659-4ca4-a591-bf9d3c539fcd","organization_name":"ca497a98trial","space_id":"2b197de0-4164-4b4b-a753-5e60fdc57e12","space_name":"dev","context_id":"mqs014qc","msg":"Application router version 21.5.0"}
+   2026-06-24T11:37:36.57+0000 [APP/PROC/WEB/0] OUT {"written_at":"2026-06-24T11:37:36.569Z","written_ts":1782301056569000000,"csn_component":"-","correlation_id":"mqs014qh","type":"log","logger":"nodejs-logger","layer":"/Configuration","level":"info","container_id":"10.32.2.7","component_type":"application","component_id":"304059af-b542-421c-9865-6ce5b54c18ff","component_name":"EPM","component_instance":-1,"source_instance":-1,"organization_id":"789aa033-f659-4ca4-a591-bf9d3c539fcd","organization_name":"ca497a98trial","space_id":"2b197de0-4164-4b4b-a753-5e60fdc57e12","space_name":"dev","context_id":"mqs014qh","msg":"No COOKIES environment variable"}
+   2026-06-24T11:37:36.57+0000 [APP/PROC/WEB/0] ERR /home/vcap/app/node_modules/@sap/approuter/lib/utils/JsonValidator.js:30
+   2026-06-24T11:37:36.57+0000 [APP/PROC/WEB/0] ERR throw new VError('%s%s: %s',
+   2026-06-24T11:37:36.57+0000 [APP/PROC/WEB/0] ERR ^
+   2026-06-24T11:37:36.57+0000 [APP/PROC/WEB/0] ERR VError: xs-app.json/routes/1: Format validation failed (/home/vcap/app/webapp is not a directory)
+   2026-06-24T11:37:36.57+0000 [APP/PROC/WEB/0] ERR at JsonValidator.validate (/home/vcap/app/node_modules/@sap/approuter/lib/utils/JsonValidator.js:30:11)
+   2026-06-24T11:37:36.57+0000 [APP/PROC/WEB/0] ERR at Object.validateXsApp (/home/vcap/app/node_modules/@sap/approuter/lib/configuration/validators.js:168:15)
+   2026-06-24T11:37:36.57+0000 [APP/PROC/WEB/0] ERR at exports.loadConfiguration (/home/vcap/app/node_modules/@sap/approuter/lib/configuration/app-config.js:21:14)
+   2026-06-24T11:37:36.57+0000 [APP/PROC/WEB/0] ERR at module.exports.load (/home/vcap/app/node_modules/@sap/approuter/lib/configuration.js:24:34)
+   2026-06-24T11:37:36.57+0000 [APP/PROC/WEB/0] ERR at bootstrap (/home/vcap/app/node_modules/@sap/approuter/lib/bootstrap.js:68:38)
+   2026-06-24T11:37:36.57+0000 [APP/PROC/WEB/0] ERR at Approuter.start (/home/vcap/app/node_modules/@sap/approuter/approuter.js:71:13)
+   2026-06-24T11:37:36.57+0000 [APP/PROC/WEB/0] ERR at Object.<anonymous> (/home/vcap/app/node_modules/@sap/approuter/approuter.js:178:6)
+   2026-06-24T11:37:36.57+0000 [APP/PROC/WEB/0] ERR at Module._compile (node:internal/modules/cjs/loader:1705:14)
+   2026-06-24T11:37:36.57+0000 [APP/PROC/WEB/0] ERR at Object..js (node:internal/modules/cjs/loader:1838:10)
+   2026-06-24T11:37:36.57+0000 [APP/PROC/WEB/0] ERR at Module.load (node:internal/modules/cjs/loader:1441:32) {
+   2026-06-24T11:37:36.57+0000 [APP/PROC/WEB/0] ERR jse_shortmsg: 'xs-app.json/routes/1: Format validation failed (/home/vcap/app/webapp is not a directory)',
+   2026-06-24T11:37:36.57+0000 [APP/PROC/WEB/0] ERR jse_info: {}
+   2026-06-24T11:37:36.57+0000 [APP/PROC/WEB/0] ERR }
+   2026-06-24T11:37:36.57+0000 [APP/PROC/WEB/0] ERR Node.js v22.22.2
+   2026-06-24T11:37:36.58+0000 [APP/PROC/WEB/0] ERR npm notice
+   2026-06-24T11:37:36.58+0000 [APP/PROC/WEB/0] ERR npm notice New major version of npm available! 10.9.7 -> 11.17.0
+   2026-06-24T11:37:36.58+0000 [APP/PROC/WEB/0] ERR npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.17.0
+   2026-06-24T11:37:36.58+0000 [APP/PROC/WEB/0] ERR npm notice To update run: npm install -g npm@11.17.0
+   2026-06-24T11:37:36.58+0000 [APP/PROC/WEB/0] ERR npm notice
+   2026-06-24T11:37:36.65+0000 [APP/PROC/WEB/0] OUT Exit status 1
+   2026-06-24T11:37:43.14+0000 [CELL/0] OUT Cell 3697da87-6170-41a4-acb7-9186f1527dfa stopping instance 9376c47b-8a17-46da-7f76-045a
+   2026-06-24T11:37:43.14+0000 [CELL/0] OUT Cell 3697da87-6170-41a4-acb7-9186f1527dfa destroying container for instance 9376c47b-8a17-46da-7f76-045a
+   2026-06-24T11:37:43.14+0000 [API/2] OUT Process has crashed with type: "web"
+   2026-06-24T11:37:43.17+0000 [API/2] OUT App instance exited with guid 304059af-b542-421c-9865-6ce5b54c18ff payload: {"instance"=>"9376c47b-8a17-46da-7f76-045a", "index"=>0, "cell_id"=>"3697da87-6170-41a4-acb7-9186f1527dfa", "reason"=>"CRASHED", "exit_description"=>"APP/PROC/WEB: Exited with status 1", "crash_count"=>1, "crash_timestamp"=>1782301063113322904, "version"=>"8038dea9-b184-4cf1-af18-240be016798e"}
+   2026-06-24T11:37:43.22+0000 [CELL/0] OUT Cell 4401fcd0-006d-4ceb-9b51-aa22a1b186cf creating container for instance 5e752739-d85f-4c94-56b7-7080
+   2026-06-24T11:37:43.32+0000 [PROXY/0] OUT Exit status 137
+   2026-06-24T11:37:43.60+0000 [CELL/0] OUT Security group rules were updated
+   2026-06-24T11:37:43.67+0000 [CELL/0] OUT Cell 4401fcd0-006d-4ceb-9b51-aa22a1b186cf successfully created container for instance 5e752739-d85f-4c94-56b7-7080
+   2026-06-24T11:37:44.12+0000 [CELL/0] OUT Downloading droplet...
+   2026-06-24T11:37:46.18+0000 [CELL/0] OUT Cell 3697da87-6170-41a4-acb7-9186f1527dfa successfully destroyed container for instance 9376c47b-8a17-46da-7f76-045a
+   2026-06-24T11:37:47.58+0000 [CELL/0] OUT Downloaded droplet (62.2M)
+   2026-06-24T11:37:47.58+0000 [CELL/0] OUT Starting health monitoring of container
+   2026-06-24T11:37:47.64+0000 [APP/PROC/WEB/0] OUT Invoking pre-start scripts.
+   2026-06-24T11:37:47.79+0000 [APP/PROC/WEB/0] OUT Invoking start command.
+   2026-06-24T11:37:48.12+0000 [APP/PROC/WEB/0] OUT > start
+   2026-06-24T11:37:48.12+0000 [APP/PROC/WEB/0] OUT > node node_modules/@sap/approuter/approuter.js
+   2026-06-24T11:37:48.26+0000 [APP/PROC/WEB/0] OUT {"written_at":"2026-06-24T11:37:48.261Z","written_ts":1782301068261000000,"csn_component":"-","correlation_id":"-","type":"log","logger":"nodejs-logger","layer":"/LoggingLibrary","level":"warning","container_id":"10.32.3.5","component_type":"application","component_id":"304059af-b542-421c-9865-6ce5b54c18ff","component_name":"EPM","component_instance":-1,"source_instance":-1,"organization_id":"789aa033-f659-4ca4-a591-bf9d3c539fcd","organization_name":"ca497a98trial","space_id":"2b197de0-4164-4b4b-a753-5e60fdc57e12","space_name":"dev","context_id":"","msg":"Dynamic log level switching not available"}
+   2026-06-24T11:37:48.65+0000 [APP/PROC/WEB/0] OUT {"written_at":"2026-06-24T11:37:48.652Z","written_ts":1782301068652000000,"csn_component":"-","correlation_id":"mqs01e24","type":"log","logger":"nodejs-logger","layer":"/approuter","level":"info","container_id":"10.32.3.5","component_type":"application","component_id":"304059af-b542-421c-9865-6ce5b54c18ff","component_name":"EPM","component_instance":-1,"source_instance":-1,"organization_id":"789aa033-f659-4ca4-a591-bf9d3c539fcd","organization_name":"ca497a98trial","space_id":"2b197de0-4164-4b4b-a753-5e60fdc57e12","space_name":"dev","context_id":"mqs01e24","msg":"Application router version 21.5.0"}
+   2026-06-24T11:37:48.65+0000 [APP/PROC/WEB/0] OUT {"written_at":"2026-06-24T11:37:48.656Z","written_ts":1782301068656000000,"csn_component":"-","correlation_id":"mqs01e28","type":"log","logger":"nodejs-logger","layer":"/Configuration","level":"info","container_id":"10.32.3.5","component_type":"application","component_id":"304059af-b542-421c-9865-6ce5b54c18ff","component_name":"EPM","component_instance":-1,"source_instance":-1,"organization_id":"789aa033-f659-4ca4-a591-bf9d3c539fcd","organization_name":"ca497a98trial","space_id":"2b197de0-4164-4b4b-a753-5e60fdc57e12","space_name":"dev","context_id":"mqs01e28","msg":"No COOKIES environment variable"}
+   2026-06-24T11:37:48.66+0000 [APP/PROC/WEB/0] ERR /home/vcap/app/node_modules/@sap/approuter/lib/utils/JsonValidator.js:30
+   2026-06-24T11:37:48.66+0000 [APP/PROC/WEB/0] ERR throw new VError('%s%s: %s',
+   2026-06-24T11:37:48.66+0000 [APP/PROC/WEB/0] ERR ^
+   2026-06-24T11:37:48.66+0000 [APP/PROC/WEB/0] ERR VError: xs-app.json/routes/1: Format validation failed (/home/vcap/app/webapp is not a directory)
+   2026-06-24T11:37:48.66+0000 [APP/PROC/WEB/0] ERR at JsonValidator.validate (/home/vcap/app/node_modules/@sap/approuter/lib/utils/JsonValidator.js:30:11)
+   2026-06-24T11:37:48.66+0000 [APP/PROC/WEB/0] ERR at Object.validateXsApp (/home/vcap/app/node_modules/@sap/approuter/lib/configuration/validators.js:168:15)
+   2026-06-24T11:37:48.66+0000 [APP/PROC/WEB/0] ERR at exports.loadConfiguration (/home/vcap/app/node_modules/@sap/approuter/lib/configuration/app-config.js:21:14)
+   2026-06-24T11:37:48.66+0000 [APP/PROC/WEB/0] ERR at module.exports.load (/home/vcap/app/node_modules/@sap/approuter/lib/configuration.js:24:34)
+   2026-06-24T11:37:48.66+0000 [APP/PROC/WEB/0] ERR at bootstrap (/home/vcap/app/node_modules/@sap/approuter/lib/bootstrap.js:68:38)
+   2026-06-24T11:37:48.66+0000 [APP/PROC/WEB/0] ERR at Approuter.start (/home/vcap/app/node_modules/@sap/approuter/approuter.js:71:13)
+   2026-06-24T11:37:48.66+0000 [APP/PROC/WEB/0] ERR at Object.<anonymous> (/home/vcap/app/node_modules/@sap/approuter/approuter.js:178:6)
+   2026-06-24T11:37:48.66+0000 [APP/PROC/WEB/0] ERR at Module._compile (node:internal/modules/cjs/loader:1705:14)
+   2026-06-24T11:37:48.66+0000 [APP/PROC/WEB/0] ERR at Object..js (node:internal/modules/cjs/loader:1838:10)
+   2026-06-24T11:37:48.66+0000 [APP/PROC/WEB/0] ERR at Module.load (node:internal/modules/cjs/loader:1441:32) {
+   2026-06-24T11:37:48.66+0000 [APP/PROC/WEB/0] ERR jse_shortmsg: 'xs-app.json/routes/1: Format validation failed (/home/vcap/app/webapp is not a directory)',
+   2026-06-24T11:37:48.66+0000 [APP/PROC/WEB/0] ERR jse_info: {}
+   2026-06-24T11:37:48.66+0000 [APP/PROC/WEB/0] ERR }
+   2026-06-24T11:37:48.66+0000 [APP/PROC/WEB/0] ERR Node.js v22.22.2
+   2026-06-24T11:37:48.67+0000 [APP/PROC/WEB/0] ERR npm notice
+   2026-06-24T11:37:48.67+0000 [APP/PROC/WEB/0] ERR npm notice New major version of npm available! 10.9.7 -> 11.17.0
+   2026-06-24T11:37:48.67+0000 [APP/PROC/WEB/0] ERR npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.17.0
+   2026-06-24T11:37:48.67+0000 [APP/PROC/WEB/0] ERR npm notice To update run: npm install -g npm@11.17.0
+   2026-06-24T11:37:48.67+0000 [APP/PROC/WEB/0] ERR npm notice
+   2026-06-24T11:37:48.72+0000 [APP/PROC/WEB/0] OUT Exit status 1
+   2026-06-24T11:37:54.63+0000 [CELL/0] OUT Cell 4401fcd0-006d-4ceb-9b51-aa22a1b186cf stopping instance 5e752739-d85f-4c94-56b7-7080
+   2026-06-24T11:37:54.63+0000 [CELL/0] OUT Cell 4401fcd0-006d-4ceb-9b51-aa22a1b186cf destroying container for instance 5e752739-d85f-4c94-56b7-7080
+   2026-06-24T11:37:54.64+0000 [API/0] OUT Process has crashed with type: "web"
+   2026-06-24T11:37:54.66+0000 [API/0] OUT App instance exited with guid 304059af-b542-421c-9865-6ce5b54c18ff payload: {"instance"=>"5e752739-d85f-4c94-56b7-7080", "index"=>0, "cell_id"=>"4401fcd0-006d-4ceb-9b51-aa22a1b186cf", "reason"=>"CRASHED", "exit_description"=>"APP/PROC/WEB: Exited with status 1", "crash_count"=>2, "crash_timestamp"=>1782301074605867482, "version"=>"8038dea9-b184-4cf1-af18-240be016798e"}
+   2026-06-24T11:37:54.70+0000 [CELL/0] OUT Cell 3697da87-6170-41a4-acb7-9186f1527dfa creating container for instance f9beb6ff-559a-4937-6fff-c36e
+   2026-06-24T11:37:54.73+0000 [PROXY/0] OUT Exit status 137
+   2026-06-24T11:37:55.50+0000 [CELL/0] OUT Security group rules were updated
+   2026-06-24T11:37:55.60+0000 [CELL/0] OUT Cell 3697da87-6170-41a4-acb7-9186f1527dfa successfully created container for instance f9beb6ff-559a-4937-6fff-c36e
+   2026-06-24T11:37:56.06+0000 [CELL/0] OUT Cell 4401fcd0-006d-4ceb-9b51-aa22a1b186cf successfully destroyed container for instance 5e752739-d85f-4c94-56b7-7080
+   2026-06-24T11:37:56.28+0000 [CELL/0] OUT Downloading droplet...
+   2026-06-24T11:37:58.28+0000 [CELL/0] OUT Downloaded droplet
+   2026-06-24T11:37:58.28+0000 [CELL/0] OUT Starting health monitoring of container
+   2026-06-24T11:37:58.41+0000 [APP/PROC/WEB/0] OUT Invoking pre-start scripts.
+   2026-06-24T11:37:58.65+0000 [APP/PROC/WEB/0] OUT Invoking start command.
+   2026-06-24T11:37:59.12+0000 [APP/PROC/WEB/0] OUT > start
+   2026-06-24T11:37:59.12+0000 [APP/PROC/WEB/0] OUT > node node_modules/@sap/approuter/approuter.js
+   2026-06-24T11:37:59.33+0000 [APP/PROC/WEB/0] OUT {"written_at":"2026-06-24T11:37:59.336Z","written_ts":1782301079336000000,"csn_component":"-","correlation_id":"-","type":"log","logger":"nodejs-logger","layer":"/LoggingLibrary","level":"warning","container_id":"10.32.2.7","component_type":"application","component_id":"304059af-b542-421c-9865-6ce5b54c18ff","component_name":"EPM","component_instance":-1,"source_instance":-1,"organization_id":"789aa033-f659-4ca4-a591-bf9d3c539fcd","organization_name":"ca497a98trial","space_id":"2b197de0-4164-4b4b-a753-5e60fdc57e12","space_name":"dev","context_id":"","msg":"Dynamic log level switching not available"}
+   2026-06-24T11:37:59.96+0000 [APP/PROC/WEB/0] OUT {"written_at":"2026-06-24T11:37:59.969Z","written_ts":1782301079969000000,"csn_component":"-","correlation_id":"mqs01msh","type":"log","logger":"nodejs-logger","layer":"/approuter","level":"info","container_id":"10.32.2.7","component_type":"application","component_id":"304059af-b542-421c-9865-6ce5b54c18ff","component_name":"EPM","component_instance":-1,"source_instance":-1,"organization_id":"789aa033-f659-4ca4-a591-bf9d3c539fcd","organization_name":"ca497a98trial","space_id":"2b197de0-4164-4b4b-a753-5e60fdc57e12","space_name":"dev","context_id":"mqs01msh","msg":"Application router version 21.5.0"}
+   2026-06-24T11:37:59.97+0000 [APP/PROC/WEB/0] OUT {"written_at":"2026-06-24T11:37:59.975Z","written_ts":1782301079975000000,"csn_component":"-","correlation_id":"mqs01msn","type":"log","logger":"nodejs-logger","layer":"/Configuration","level":"info","container_id":"10.32.2.7","component_type":"application","component_id":"304059af-b542-421c-9865-6ce5b54c18ff","component_name":"EPM","component_instance":-1,"source_instance":-1,"organization_id":"789aa033-f659-4ca4-a591-bf9d3c539fcd","organization_name":"ca497a98trial","space_id":"2b197de0-4164-4b4b-a753-5e60fdc57e12","space_name":"dev","context_id":"mqs01msn","msg":"No COOKIES environment variable"}
+   2026-06-24T11:37:59.98+0000 [APP/PROC/WEB/0] ERR /home/vcap/app/node_modules/@sap/approuter/lib/utils/JsonValidator.js:30
+   2026-06-24T11:37:59.98+0000 [APP/PROC/WEB/0] ERR throw new VError('%s%s: %s',
+   2026-06-24T11:37:59.98+0000 [APP/PROC/WEB/0] ERR ^
+   2026-06-24T11:37:59.98+0000 [APP/PROC/WEB/0] ERR VError: xs-app.json/routes/1: Format validation failed (/home/vcap/app/webapp is not a directory)
+   2026-06-24T11:37:59.98+0000 [APP/PROC/WEB/0] ERR at JsonValidator.validate (/home/vcap/app/node_modules/@sap/approuter/lib/utils/JsonValidator.js:30:11)
+   2026-06-24T11:37:59.98+0000 [APP/PROC/WEB/0] ERR at Object.validateXsApp (/home/vcap/app/node_modules/@sap/approuter/lib/configuration/validators.js:168:15)
+   2026-06-24T11:37:59.98+0000 [APP/PROC/WEB/0] ERR at exports.loadConfiguration (/home/vcap/app/node_modules/@sap/approuter/lib/configuration/app-config.js:21:14)
+   2026-06-24T11:37:59.98+0000 [APP/PROC/WEB/0] ERR at module.exports.load (/home/vcap/app/node_modules/@sap/approuter/lib/configuration.js:24:34)
+   2026-06-24T11:37:59.98+0000 [APP/PROC/WEB/0] ERR at bootstrap (/home/vcap/app/node_modules/@sap/approuter/lib/bootstrap.js:68:38)
+   2026-06-24T11:37:59.98+0000 [APP/PROC/WEB/0] ERR at Approuter.start (/home/vcap/app/node_modules/@sap/approuter/approuter.js:71:13)
+   2026-06-24T11:37:59.98+0000 [APP/PROC/WEB/0] ERR at Object.<anonymous> (/home/vcap/app/node_modules/@sap/approuter/approuter.js:178:6)
+   2026-06-24T11:37:59.98+0000 [APP/PROC/WEB/0] ERR at Module._compile (node:internal/modules/cjs/loader:1705:14)
+   2026-06-24T11:37:59.98+0000 [APP/PROC/WEB/0] ERR at Object..js (node:internal/modules/cjs/loader:1838:10)
+   2026-06-24T11:37:59.98+0000 [APP/PROC/WEB/0] ERR at Module.load (node:internal/modules/cjs/loader:1441:32) {
+   2026-06-24T11:37:59.98+0000 [APP/PROC/WEB/0] ERR jse_shortmsg: 'xs-app.json/routes/1: Format validation failed (/home/vcap/app/webapp is not a directory)',
+   2026-06-24T11:37:59.98+0000 [APP/PROC/WEB/0] ERR jse_info: {}
+   2026-06-24T11:37:59.98+0000 [APP/PROC/WEB/0] ERR }
+   2026-06-24T11:37:59.98+0000 [APP/PROC/WEB/0] ERR Node.js v22.22.2
+   2026-06-24T11:37:59.99+0000 [APP/PROC/WEB/0] ERR npm notice
+   2026-06-24T11:37:59.99+0000 [APP/PROC/WEB/0] ERR npm notice New major version of npm available! 10.9.7 -> 11.17.0
+   2026-06-24T11:37:59.99+0000 [APP/PROC/WEB/0] ERR npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.17.0
+   2026-06-24T11:37:59.99+0000 [APP/PROC/WEB/0] ERR npm notice To update run: npm install -g npm@11.17.0
+   2026-06-24T11:37:59.99+0000 [APP/PROC/WEB/0] ERR npm notice
+   2026-06-24T11:38:00.08+0000 [APP/PROC/WEB/0] OUT Exit status 1
+   2026-06-24T11:38:10.03+0000 [CELL/0] OUT Cell 3697da87-6170-41a4-acb7-9186f1527dfa stopping instance f9beb6ff-559a-4937-6fff-c36e
+   2026-06-24T11:38:10.03+0000 [CELL/0] OUT Cell 3697da87-6170-41a4-acb7-9186f1527dfa destroying container for instance f9beb6ff-559a-4937-6fff-c36e
+   2026-06-24T11:38:10.06+0000 [API/12] OUT Process has crashed with type: "web"
+   2026-06-24T11:38:10.08+0000 [API/12] OUT App instance exited with guid 304059af-b542-421c-9865-6ce5b54c18ff payload: {"instance"=>"f9beb6ff-559a-4937-6fff-c36e", "index"=>0, "cell_id"=>"3697da87-6170-41a4-acb7-9186f1527dfa", "reason"=>"CRASHED", "exit_description"=>"APP/PROC/WEB: Exited with status 1", "crash_count"=>3, "crash_timestamp"=>1782301090030820655, "version"=>"8038dea9-b184-4cf1-af18-240be016798e"}
+   2026-06-24T11:38:10.16+0000 [PROXY/0] OUT Exit status 137
+   2026-06-24T11:38:13.02+0000 [CELL/0] OUT Cell 3697da87-6170-41a4-acb7-9186f1527dfa successfully destroyed container for instance f9beb6ff-559a-4937-6fff-c36e
+   2026-06-24T11:38:18.25+0000 [API/11] OUT Stopping app with guid 304059af-b542-421c-9865-6ce5b54c18ff
+   2026-06-24T11:38:18.44+0000 [API/1] OUT Starting app with guid 304059af-b542-421c-9865-6ce5b54c18ff
+   2026-06-24T11:38:18.62+0000 [CELL/0] OUT Cell 3697da87-6170-41a4-acb7-9186f1527dfa creating container for instance 769bd055-952e-4f1a-5ea1-0526
+   2026-06-24T11:38:19.48+0000 [CELL/0] OUT Security group rules were updated
+   2026-06-24T11:38:19.59+0000 [CELL/0] OUT Cell 3697da87-6170-41a4-acb7-9186f1527dfa successfully created container for instance 769bd055-952e-4f1a-5ea1-0526
+   2026-06-24T11:38:20.42+0000 [CELL/0] OUT Downloading droplet...
+   2026-06-24T11:38:25.45+0000 [CELL/0] OUT Downloaded droplet (62.2M)
+   2026-06-24T11:38:25.45+0000 [CELL/0] OUT Starting health monitoring of container
+   2026-06-24T11:38:25.60+0000 [APP/PROC/WEB/0] OUT Invoking pre-start scripts.
+   2026-06-24T11:38:25.84+0000 [APP/PROC/WEB/0] OUT Invoking start command.
+   2026-06-24T11:38:26.31+0000 [APP/PROC/WEB/0] OUT > start
+   2026-06-24T11:38:26.31+0000 [APP/PROC/WEB/0] OUT > node node_modules/@sap/approuter/approuter.js
+   2026-06-24T11:38:26.52+0000 [APP/PROC/WEB/0] OUT {"written_at":"2026-06-24T11:38:26.519Z","written_ts":1782301106519000000,"csn_component":"-","correlation_id":"-","type":"log","logger":"nodejs-logger","layer":"/LoggingLibrary","level":"warning","container_id":"10.32.2.7","component_type":"application","component_id":"304059af-b542-421c-9865-6ce5b54c18ff","component_name":"EPM","component_instance":-1,"source_instance":-1,"organization_id":"789aa033-f659-4ca4-a591-bf9d3c539fcd","organization_name":"ca497a98trial","space_id":"2b197de0-4164-4b4b-a753-5e60fdc57e12","space_name":"dev","context_id":"","msg":"Dynamic log level switching not available"}
+   2026-06-24T11:38:27.06+0000 [APP/PROC/WEB/0] OUT {"written_at":"2026-06-24T11:38:27.060Z","written_ts":1782301107060000000,"csn_component":"-","correlation_id":"mqs027p0","type":"log","logger":"nodejs-logger","layer":"/approuter","level":"info","container_id":"10.32.2.7","component_type":"application","component_id":"304059af-b542-421c-9865-6ce5b54c18ff","component_name":"EPM","component_instance":-1,"source_instance":-1,"organization_id":"789aa033-f659-4ca4-a591-bf9d3c539fcd","organization_name":"ca497a98trial","space_id":"2b197de0-4164-4b4b-a753-5e60fdc57e12","space_name":"dev","context_id":"mqs027p0","msg":"Application router version 21.5.0"}
+   2026-06-24T11:38:27.06+0000 [APP/PROC/WEB/0] OUT {"written_at":"2026-06-24T11:38:27.066Z","written_ts":1782301107066000000,"csn_component":"-","correlation_id":"mqs027p6","type":"log","logger":"nodejs-logger","layer":"/Configuration","level":"info","container_id":"10.32.2.7","component_type":"application","component_id":"304059af-b542-421c-9865-6ce5b54c18ff","component_name":"EPM","component_instance":-1,"source_instance":-1,"organization_id":"789aa033-f659-4ca4-a591-bf9d3c539fcd","organization_name":"ca497a98trial","space_id":"2b197de0-4164-4b4b-a753-5e60fdc57e12","space_name":"dev","context_id":"mqs027p6","msg":"No COOKIES environment variable"}
+   2026-06-24T11:38:27.07+0000 [APP/PROC/WEB/0] ERR /home/vcap/app/node_modules/@sap/approuter/lib/utils/JsonValidator.js:30
+   2026-06-24T11:38:27.07+0000 [APP/PROC/WEB/0] ERR throw new VError('%s%s: %s',
+   2026-06-24T11:38:27.07+0000 [APP/PROC/WEB/0] ERR ^
+   2026-06-24T11:38:27.07+0000 [APP/PROC/WEB/0] ERR VError: xs-app.json/routes/1: Format validation failed (/home/vcap/app/webapp is not a directory)
+   2026-06-24T11:38:27.07+0000 [APP/PROC/WEB/0] ERR at JsonValidator.validate (/home/vcap/app/node_modules/@sap/approuter/lib/utils/JsonValidator.js:30:11)
+   2026-06-24T11:38:27.07+0000 [APP/PROC/WEB/0] ERR at Object.validateXsApp (/home/vcap/app/node_modules/@sap/approuter/lib/configuration/validators.js:168:15)
+   2026-06-24T11:38:27.07+0000 [APP/PROC/WEB/0] ERR at exports.loadConfiguration (/home/vcap/app/node_modules/@sap/approuter/lib/configuration/app-config.js:21:14)
+   2026-06-24T11:38:27.07+0000 [APP/PROC/WEB/0] ERR at module.exports.load (/home/vcap/app/node_modules/@sap/approuter/lib/configuration.js:24:34)
+   2026-06-24T11:38:27.07+0000 [APP/PROC/WEB/0] ERR at bootstrap (/home/vcap/app/node_modules/@sap/approuter/lib/bootstrap.js:68:38)
+   2026-06-24T11:38:27.07+0000 [APP/PROC/WEB/0] ERR at Approuter.start (/home/vcap/app/node_modules/@sap/approuter/approuter.js:71:13)
+   2026-06-24T11:38:27.07+0000 [APP/PROC/WEB/0] ERR at Object.<anonymous> (/home/vcap/app/node_modules/@sap/approuter/approuter.js:178:6)
+   2026-06-24T11:38:27.07+0000 [APP/PROC/WEB/0] ERR at Module._compile (node:internal/modules/cjs/loader:1705:14)
+   2026-06-24T11:38:27.07+0000 [APP/PROC/WEB/0] ERR at Object..js (node:internal/modules/cjs/loader:1838:10)
+   2026-06-24T11:38:27.07+0000 [APP/PROC/WEB/0] ERR at Module.load (node:internal/modules/cjs/loader:1441:32) {
+   2026-06-24T11:38:27.07+0000 [APP/PROC/WEB/0] ERR jse_shortmsg: 'xs-app.json/routes/1: Format validation failed (/home/vcap/app/webapp is not a directory)',
+   2026-06-24T11:38:27.07+0000 [APP/PROC/WEB/0] ERR jse_info: {}
+   2026-06-24T11:38:27.07+0000 [APP/PROC/WEB/0] ERR }
+   2026-06-24T11:38:27.07+0000 [APP/PROC/WEB/0] ERR Node.js v22.22.2
+   2026-06-24T11:38:27.08+0000 [APP/PROC/WEB/0] ERR npm notice
+   2026-06-24T11:38:27.08+0000 [APP/PROC/WEB/0] ERR npm notice New major version of npm available! 10.9.7 -> 11.17.0
+   2026-06-24T11:38:27.08+0000 [APP/PROC/WEB/0] ERR npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.17.0
+   2026-06-24T11:38:27.08+0000 [APP/PROC/WEB/0] ERR npm notice To update run: npm install -g npm@11.17.0
+   2026-06-24T11:38:27.08+0000 [APP/PROC/WEB/0] ERR npm notice
+   2026-06-24T11:38:27.15+0000 [APP/PROC/WEB/0] OUT Exit status 1
+   2026-06-24T11:38:34.37+0000 [CELL/0] OUT Cell 3697da87-6170-41a4-acb7-9186f1527dfa stopping instance 769bd055-952e-4f1a-5ea1-0526
+   2026-06-24T11:38:34.37+0000 [CELL/0] OUT Cell 3697da87-6170-41a4-acb7-9186f1527dfa destroying container for instance 769bd055-952e-4f1a-5ea1-0526
+   2026-06-24T11:38:34.38+0000 [API/0] OUT Process has crashed with type: "web"
+   2026-06-24T11:38:34.40+0000 [API/0] OUT App instance exited with guid 304059af-b542-421c-9865-6ce5b54c18ff payload: {"instance"=>"769bd055-952e-4f1a-5ea1-0526", "index"=>0, "cell_id"=>"3697da87-6170-41a4-acb7-9186f1527dfa", "reason"=>"CRASHED", "exit_description"=>"APP/PROC/WEB: Exited with status 1", "crash_count"=>1, "crash_timestamp"=>1782301114344840441, "version"=>"f85c5d91-7a26-4f5e-9155-aa9527175184"}
+   2026-06-24T11:38:34.43+0000 [CELL/0] OUT Cell 4401fcd0-006d-4ceb-9b51-aa22a1b186cf creating container for instance b8a43475-d091-4a6d-4edb-443e
+   2026-06-24T11:38:34.50+0000 [PROXY/0] OUT Exit status 137
+   2026-06-24T11:38:34.81+0000 [CELL/0] OUT Security group rules were updated
+   2026-06-24T11:38:34.86+0000 [CELL/0] OUT Cell 4401fcd0-006d-4ceb-9b51-aa22a1b186cf successfully created container for instance b8a43475-d091-4a6d-4edb-443e
+   2026-06-24T11:38:35.40+0000 [CELL/0] OUT Downloading droplet...
+   2026-06-24T11:38:37.48+0000 [CELL/0] OUT Cell 3697da87-6170-41a4-acb7-9186f1527dfa successfully destroyed container for instance 769bd055-952e-4f1a-5ea1-0526
+   2026-06-24T11:38:38.98+0000 [CELL/0] OUT Downloaded droplet (62.2M)
+   2026-06-24T11:38:38.98+0000 [CELL/0] OUT Starting health monitoring of container
+   2026-06-24T11:38:39.05+0000 [APP/PROC/WEB/0] OUT Invoking pre-start scripts.
+   2026-06-24T11:38:39.20+0000 [APP/PROC/WEB/0] OUT Invoking start command.
+   2026-06-24T11:38:39.52+0000 [APP/PROC/WEB/0] OUT > start
+   2026-06-24T11:38:39.52+0000 [APP/PROC/WEB/0] OUT > node node_modules/@sap/approuter/approuter.js
+   2026-06-24T11:38:39.66+0000 [APP/PROC/WEB/0] OUT {"written_at":"2026-06-24T11:38:39.665Z","written_ts":1782301119665000000,"csn_component":"-","correlation_id":"-","type":"log","logger":"nodejs-logger","layer":"/LoggingLibrary","level":"warning","container_id":"10.32.3.5","component_type":"application","component_id":"304059af-b542-421c-9865-6ce5b54c18ff","component_name":"EPM","component_instance":-1,"source_instance":-1,"organization_id":"789aa033-f659-4ca4-a591-bf9d3c539fcd","organization_name":"ca497a98trial","space_id":"2b197de0-4164-4b4b-a753-5e60fdc57e12","space_name":"dev","context_id":"","msg":"Dynamic log level switching not available"}
+   2026-06-24T11:38:40.05+0000 [APP/PROC/WEB/0] OUT {"written_at":"2026-06-24T11:38:40.055Z","written_ts":1782301120055000000,"csn_component":"-","correlation_id":"mqs02hq0","type":"log","logger":"nodejs-logger","layer":"/approuter","level":"info","container_id":"10.32.3.5","component_type":"application","component_id":"304059af-b542-421c-9865-6ce5b54c18ff","component_name":"EPM","component_instance":-1,"source_instance":-1,"organization_id":"789aa033-f659-4ca4-a591-bf9d3c539fcd","organization_name":"ca497a98trial","space_id":"2b197de0-4164-4b4b-a753-5e60fdc57e12","space_name":"dev","context_id":"mqs02hq0","msg":"Application router version 21.5.0"}
+   2026-06-24T11:38:40.06+0000 [APP/PROC/WEB/0] OUT {"written_at":"2026-06-24T11:38:40.060Z","written_ts":1782301120060000000,"csn_component":"-","correlation_id":"mqs02hq4","type":"log","logger":"nodejs-logger","layer":"/Configuration","level":"info","container_id":"10.32.3.5","component_type":"application","component_id":"304059af-b542-421c-9865-6ce5b54c18ff","component_name":"EPM","component_instance":-1,"source_instance":-1,"organization_id":"789aa033-f659-4ca4-a591-bf9d3c539fcd","organization_name":"ca497a98trial","space_id":"2b197de0-4164-4b4b-a753-5e60fdc57e12","space_name":"dev","context_id":"mqs02hq4","msg":"No COOKIES environment variable"}
+   2026-06-24T11:38:40.06+0000 [APP/PROC/WEB/0] ERR /home/vcap/app/node_modules/@sap/approuter/lib/utils/JsonValidator.js:30
+   2026-06-24T11:38:40.06+0000 [APP/PROC/WEB/0] ERR throw new VError('%s%s: %s',
+   2026-06-24T11:38:40.06+0000 [APP/PROC/WEB/0] ERR ^
+   2026-06-24T11:38:40.06+0000 [APP/PROC/WEB/0] ERR VError: xs-app.json/routes/1: Format validation failed (/home/vcap/app/webapp is not a directory)
+   2026-06-24T11:38:40.06+0000 [APP/PROC/WEB/0] ERR at JsonValidator.validate (/home/vcap/app/node_modules/@sap/approuter/lib/utils/JsonValidator.js:30:11)
+   2026-06-24T11:38:40.06+0000 [APP/PROC/WEB/0] ERR at Object.validateXsApp (/home/vcap/app/node_modules/@sap/approuter/lib/configuration/validators.js:168:15)
+   2026-06-24T11:38:40.06+0000 [APP/PROC/WEB/0] ERR at exports.loadConfiguration (/home/vcap/app/node_modules/@sap/approuter/lib/configuration/app-config.js:21:14)
+   2026-06-24T11:38:40.06+0000 [APP/PROC/WEB/0] ERR at module.exports.load (/home/vcap/app/node_modules/@sap/approuter/lib/configuration.js:24:34)
+   2026-06-24T11:38:40.06+0000 [APP/PROC/WEB/0] ERR at bootstrap (/home/vcap/app/node_modules/@sap/approuter/lib/bootstrap.js:68:38)
+   2026-06-24T11:38:40.06+0000 [APP/PROC/WEB/0] ERR at Approuter.start (/home/vcap/app/node_modules/@sap/approuter/approuter.js:71:13)
+   2026-06-24T11:38:40.06+0000 [APP/PROC/WEB/0] ERR at Object.<anonymous> (/home/vcap/app/node_modules/@sap/approuter/approuter.js:178:6)
+   2026-06-24T11:38:40.06+0000 [APP/PROC/WEB/0] ERR at Module._compile (node:internal/modules/cjs/loader:1705:14)
+   2026-06-24T11:38:40.06+0000 [APP/PROC/WEB/0] ERR at Object..js (node:internal/modules/cjs/loader:1838:10)
+   2026-06-24T11:38:40.06+0000 [APP/PROC/WEB/0] ERR at Module.load (node:internal/modules/cjs/loader:1441:32) {
+   2026-06-24T11:38:40.06+0000 [APP/PROC/WEB/0] ERR jse_shortmsg: 'xs-app.json/routes/1: Format validation failed (/home/vcap/app/webapp is not a directory)',
+   2026-06-24T11:38:40.06+0000 [APP/PROC/WEB/0] ERR jse_info: {}
+   2026-06-24T11:38:40.06+0000 [APP/PROC/WEB/0] ERR }
+   2026-06-24T11:38:40.06+0000 [APP/PROC/WEB/0] ERR Node.js v22.22.2
+   2026-06-24T11:38:40.07+0000 [APP/PROC/WEB/0] ERR npm notice
+   2026-06-24T11:38:40.07+0000 [APP/PROC/WEB/0] ERR npm notice New major version of npm available! 10.9.7 -> 11.17.0
+   2026-06-24T11:38:40.07+0000 [APP/PROC/WEB/0] ERR npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.17.0
+   2026-06-24T11:38:40.07+0000 [APP/PROC/WEB/0] ERR npm notice To update run: npm install -g npm@11.17.0
+   2026-06-24T11:38:40.07+0000 [APP/PROC/WEB/0] ERR npm notice
+   2026-06-24T11:38:40.12+0000 [APP/PROC/WEB/0] OUT Exit status 1
+   2026-06-24T11:38:47.17+0000 [CELL/0] OUT Cell 4401fcd0-006d-4ceb-9b51-aa22a1b186cf stopping instance b8a43475-d091-4a6d-4edb-443e
+   2026-06-24T11:38:47.17+0000 [CELL/0] OUT Cell 4401fcd0-006d-4ceb-9b51-aa22a1b186cf destroying container for instance b8a43475-d091-4a6d-4edb-443e
+   2026-06-24T11:38:47.26+0000 [PROXY/0] OUT Exit status 137
+   2026-06-24T11:38:47.38+0000 [CELL/0] OUT Cell 54b50d35-322b-4617-baa3-c13476b47cb5 creating container for instance 732296ef-3318-4fa6-63c6-3dc7
+   2026-06-24T11:38:47.64+0000 [API/6] OUT Process has crashed with type: "web"
+   2026-06-24T11:38:47.66+0000 [API/6] OUT App instance exited with guid 304059af-b542-421c-9865-6ce5b54c18ff payload: {"instance"=>"b8a43475-d091-4a6d-4edb-443e", "index"=>0, "cell_id"=>"4401fcd0-006d-4ceb-9b51-aa22a1b186cf", "reason"=>"CRASHED", "exit_description"=>"APP/PROC/WEB: Exited with status 1", "crash_count"=>2, "crash_timestamp"=>1782301126494418312, "version"=>"f85c5d91-7a26-4f5e-9155-aa9527175184"}
+   2026-06-24T11:38:48.45+0000 [CELL/0] OUT Security group rules were updated
+   2026-06-24T11:38:48.57+0000 [CELL/0] OUT Cell 54b50d35-322b-4617-baa3-c13476b47cb5 successfully created container for instance 732296ef-3318-4fa6-63c6-3dc7
+   2026-06-24T11:38:48.71+0000 [CELL/0] OUT Cell 4401fcd0-006d-4ceb-9b51-aa22a1b186cf successfully destroyed container for instance b8a43475-d091-4a6d-4edb-443e
+   2026-06-24T11:38:49.48+0000 [CELL/0] OUT Downloading droplet...
+   2026-06-24T11:38:55.52+0000 [CELL/0] OUT Downloaded droplet (62.2M)
+   2026-06-24T11:38:55.52+0000 [CELL/0] OUT Starting health monitoring of container
+   2026-06-24T11:38:55.71+0000 [APP/PROC/WEB/0] OUT Invoking pre-start scripts.
+   2026-06-24T11:38:55.99+0000 [APP/PROC/WEB/0] OUT Invoking start command.
+   2026-06-24T11:38:56.56+0000 [APP/PROC/WEB/0] OUT > start
+   2026-06-24T11:38:56.56+0000 [APP/PROC/WEB/0] OUT > node node_modules/@sap/approuter/approuter.js
+   2026-06-24T11:38:56.79+0000 [APP/PROC/WEB/0] OUT {"written_at":"2026-06-24T11:38:56.795Z","written_ts":1782301136795000000,"csn_component":"-","correlation_id":"-","type":"log","logger":"nodejs-logger","layer":"/LoggingLibrary","level":"warning","container_id":"10.32.1.6","component_type":"application","component_id":"304059af-b542-421c-9865-6ce5b54c18ff","component_name":"EPM","component_instance":-1,"source_instance":-1,"organization_id":"789aa033-f659-4ca4-a591-bf9d3c539fcd","organization_name":"ca497a98trial","space_id":"2b197de0-4164-4b4b-a753-5e60fdc57e12","space_name":"dev","context_id":"","msg":"Dynamic log level switching not available"}
+   2026-06-24T11:38:57.50+0000 [APP/PROC/WEB/0] OUT {"written_at":"2026-06-24T11:38:57.508Z","written_ts":1782301137508000000,"csn_component":"-","correlation_id":"mqs02v6s","type":"log","logger":"nodejs-logger","layer":"/approuter","level":"info","container_id":"10.32.1.6","component_type":"application","component_id":"304059af-b542-421c-9865-6ce5b54c18ff","component_name":"EPM","component_instance":-1,"source_instance":-1,"organization_id":"789aa033-f659-4ca4-a591-bf9d3c539fcd","organization_name":"ca497a98trial","space_id":"2b197de0-4164-4b4b-a753-5e60fdc57e12","space_name":"dev","context_id":"mqs02v6s","msg":"Application router version 21.5.0"}
+   2026-06-24T11:38:57.51+0000 [APP/PROC/WEB/0] OUT {"written_at":"2026-06-24T11:38:57.515Z","written_ts":1782301137515000000,"csn_component":"-","correlation_id":"mqs02v6z","type":"log","logger":"nodejs-logger","layer":"/Configuration","level":"info","container_id":"10.32.1.6","component_type":"application","component_id":"304059af-b542-421c-9865-6ce5b54c18ff","component_name":"EPM","component_instance":-1,"source_instance":-1,"organization_id":"789aa033-f659-4ca4-a591-bf9d3c539fcd","organization_name":"ca497a98trial","space_id":"2b197de0-4164-4b4b-a753-5e60fdc57e12","space_name":"dev","context_id":"mqs02v6z","msg":"No COOKIES environment variable"}
+   2026-06-24T11:38:57.52+0000 [APP/PROC/WEB/0] ERR /home/vcap/app/node_modules/@sap/approuter/lib/utils/JsonValidator.js:30
+   2026-06-24T11:38:57.52+0000 [APP/PROC/WEB/0] ERR throw new VError('%s%s: %s',
+   2026-06-24T11:38:57.52+0000 [APP/PROC/WEB/0] ERR ^
+   2026-06-24T11:38:57.52+0000 [APP/PROC/WEB/0] ERR VError: xs-app.json/routes/1: Format validation failed (/home/vcap/app/webapp is not a directory)
+   2026-06-24T11:38:57.52+0000 [APP/PROC/WEB/0] ERR at JsonValidator.validate (/home/vcap/app/node_modules/@sap/approuter/lib/utils/JsonValidator.js:30:11)
+   2026-06-24T11:38:57.52+0000 [APP/PROC/WEB/0] ERR at Object.validateXsApp (/home/vcap/app/node_modules/@sap/approuter/lib/configuration/validators.js:168:15)
+   2026-06-24T11:38:57.52+0000 [APP/PROC/WEB/0] ERR at exports.loadConfiguration (/home/vcap/app/node_modules/@sap/approuter/lib/configuration/app-config.js:21:14)
+   2026-06-24T11:38:57.52+0000 [APP/PROC/WEB/0] ERR at module.exports.load (/home/vcap/app/node_modules/@sap/approuter/lib/configuration.js:24:34)
+   2026-06-24T11:38:57.52+0000 [APP/PROC/WEB/0] ERR at bootstrap (/home/vcap/app/node_modules/@sap/approuter/lib/bootstrap.js:68:38)
+   2026-06-24T11:38:57.52+0000 [APP/PROC/WEB/0] ERR at Approuter.start (/home/vcap/app/node_modules/@sap/approuter/approuter.js:71:13)
+   2026-06-24T11:38:57.52+0000 [APP/PROC/WEB/0] ERR at Object.<anonymous> (/home/vcap/app/node_modules/@sap/approuter/approuter.js:178:6)
+   2026-06-24T11:38:57.52+0000 [APP/PROC/WEB/0] ERR at Module._compile (node:internal/modules/cjs/loader:1705:14)
+   2026-06-24T11:38:57.52+0000 [APP/PROC/WEB/0] ERR at Object..js (node:internal/modules/cjs/loader:1838:10)
+   2026-06-24T11:38:57.52+0000 [APP/PROC/WEB/0] ERR at Module.load (node:internal/modules/cjs/loader:1441:32) {
+   2026-06-24T11:38:57.52+0000 [APP/PROC/WEB/0] ERR jse_shortmsg: 'xs-app.json/routes/1: Format validation failed (/home/vcap/app/webapp is not a directory)',
+   2026-06-24T11:38:57.52+0000 [APP/PROC/WEB/0] ERR jse_info: {}
+   2026-06-24T11:38:57.52+0000 [APP/PROC/WEB/0] ERR }
+   2026-06-24T11:38:57.52+0000 [APP/PROC/WEB/0] ERR Node.js v22.22.2
+   2026-06-24T11:38:57.54+0000 [APP/PROC/WEB/0] ERR npm notice
+   2026-06-24T11:38:57.54+0000 [APP/PROC/WEB/0] ERR npm notice New major version of npm available! 10.9.7 -> 11.17.0
+   2026-06-24T11:38:57.54+0000 [APP/PROC/WEB/0] ERR npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.17.0
+   2026-06-24T11:38:57.54+0000 [APP/PROC/WEB/0] ERR npm notice To update run: npm install -g npm@11.17.0
+   2026-06-24T11:38:57.54+0000 [APP/PROC/WEB/0] ERR npm notice
+   2026-06-24T11:38:57.62+0000 [APP/PROC/WEB/0] OUT Exit status 1
+   2026-06-24T11:39:05.59+0000 [CELL/0] OUT Cell 54b50d35-322b-4617-baa3-c13476b47cb5 stopping instance 732296ef-3318-4fa6-63c6-3dc7
+   2026-06-24T11:39:05.59+0000 [CELL/0] OUT Cell 54b50d35-322b-4617-baa3-c13476b47cb5 destroying container for instance 732296ef-3318-4fa6-63c6-3dc7
+   2026-06-24T11:39:05.62+0000 [API/2] OUT Process has crashed with type: "web"
+   2026-06-24T11:39:05.64+0000 [API/2] OUT App instance exited with guid 304059af-b542-421c-9865-6ce5b54c18ff payload: {"instance"=>"732296ef-3318-4fa6-63c6-3dc7", "index"=>0, "cell_id"=>"54b50d35-322b-4617-baa3-c13476b47cb5", "reason"=>"CRASHED", "exit_description"=>"APP/PROC/WEB: Exited with status 1", "crash_count"=>3, "crash_timestamp"=>1782301145589347432, "version"=>"f85c5d91-7a26-4f5e-9155-aa9527175184"}
+   2026-06-24T11:39:05.79+0000 [PROXY/0] OUT Exit status 137
+   2026-06-24T11:39:08.88+0000 [CELL/0] OUT Cell 54b50d35-322b-4617-baa3-c13476b47cb5 successfully destroyed container for instance 732296ef-3318-4fa6-63c6-3dc7
+   2026-06-24T11:39:55.07+0000 [CELL/0] OUT Cell 54b50d35-322b-4617-baa3-c13476b47cb5 creating container for instance 37fe7688-8b67-4941-7aa1-778b
+   2026-06-24T11:39:56.04+0000 [CELL/0] OUT Security group rules were updated
+   2026-06-24T11:39:56.15+0000 [CELL/0] OUT Cell 54b50d35-322b-4617-baa3-c13476b47cb5 successfully created container for instance 37fe7688-8b67-4941-7aa1-778b
+   2026-06-24T11:39:57.46+0000 [CELL/0] OUT Downloading droplet...
+   2026-06-24T11:39:59.56+0000 [CELL/0] OUT Downloaded droplet
+   2026-06-24T11:39:59.56+0000 [CELL/0] OUT Starting health monitoring of container
+   2026-06-24T11:39:59.73+0000 [APP/PROC/WEB/0] OUT Invoking pre-start scripts.
+   2026-06-24T11:40:00.02+0000 [APP/PROC/WEB/0] OUT Invoking start command.
+   2026-06-24T11:40:00.55+0000 [APP/PROC/WEB/0] OUT > start
+   2026-06-24T11:40:00.55+0000 [APP/PROC/WEB/0] OUT > node node_modules/@sap/approuter/approuter.js
+   2026-06-24T11:40:00.78+0000 [APP/PROC/WEB/0] OUT {"written_at":"2026-06-24T11:40:00.778Z","written_ts":1782301200778000000,"csn_component":"-","correlation_id":"-","type":"log","logger":"nodejs-logger","layer":"/LoggingLibrary","level":"warning","container_id":"10.32.1.6","component_type":"application","component_id":"304059af-b542-421c-9865-6ce5b54c18ff","component_name":"EPM","component_instance":-1,"source_instance":-1,"organization_id":"789aa033-f659-4ca4-a591-bf9d3c539fcd","organization_name":"ca497a98trial","space_id":"2b197de0-4164-4b4b-a753-5e60fdc57e12","space_name":"dev","context_id":"","msg":"Dynamic log level switching not available"}
+   2026-06-24T11:40:01.37+0000 [APP/PROC/WEB/0] OUT {"written_at":"2026-06-24T11:40:01.371Z","written_ts":1782301201371000000,"csn_component":"-","correlation_id":"mqs048gr","type":"log","logger":"nodejs-logger","layer":"/approuter","level":"info","container_id":"10.32.1.6","component_type":"application","component_id":"304059af-b542-421c-9865-6ce5b54c18ff","component_name":"EPM","component_instance":-1,"source_instance":-1,"organization_id":"789aa033-f659-4ca4-a591-bf9d3c539fcd","organization_name":"ca497a98trial","space_id":"2b197de0-4164-4b4b-a753-5e60fdc57e12","space_name":"dev","context_id":"mqs048gr","msg":"Application router version 21.5.0"}
+   2026-06-24T11:40:01.37+0000 [APP/PROC/WEB/0] OUT {"written_at":"2026-06-24T11:40:01.378Z","written_ts":1782301201378000000,"csn_component":"-","correlation_id":"mqs048gy","type":"log","logger":"nodejs-logger","layer":"/Configuration","level":"info","container_id":"10.32.1.6","component_type":"application","component_id":"304059af-b542-421c-9865-6ce5b54c18ff","component_name":"EPM","component_instance":-1,"source_instance":-1,"organization_id":"789aa033-f659-4ca4-a591-bf9d3c539fcd","organization_name":"ca497a98trial","space_id":"2b197de0-4164-4b4b-a753-5e60fdc57e12","space_name":"dev","context_id":"mqs048gy","msg":"No COOKIES environment variable"}
+   2026-06-24T11:40:01.38+0000 [APP/PROC/WEB/0] ERR /home/vcap/app/node_modules/@sap/approuter/lib/utils/JsonValidator.js:30
+   2026-06-24T11:40:01.38+0000 [APP/PROC/WEB/0] ERR throw new VError('%s%s: %s',
+   2026-06-24T11:40:01.38+0000 [APP/PROC/WEB/0] ERR ^
+   2026-06-24T11:40:01.38+0000 [APP/PROC/WEB/0] ERR VError: xs-app.json/routes/1: Format validation failed (/home/vcap/app/webapp is not a directory)
+   2026-06-24T11:40:01.38+0000 [APP/PROC/WEB/0] ERR at JsonValidator.validate (/home/vcap/app/node_modules/@sap/approuter/lib/utils/JsonValidator.js:30:11)
+   2026-06-24T11:40:01.38+0000 [APP/PROC/WEB/0] ERR at Object.validateXsApp (/home/vcap/app/node_modules/@sap/approuter/lib/configuration/validators.js:168:15)
+   2026-06-24T11:40:01.38+0000 [APP/PROC/WEB/0] ERR at exports.loadConfiguration (/home/vcap/app/node_modules/@sap/approuter/lib/configuration/app-config.js:21:14)
+   2026-06-24T11:40:01.38+0000 [APP/PROC/WEB/0] ERR at module.exports.load (/home/vcap/app/node_modules/@sap/approuter/lib/configuration.js:24:34)
+   2026-06-24T11:40:01.38+0000 [APP/PROC/WEB/0] ERR at bootstrap (/home/vcap/app/node_modules/@sap/approuter/lib/bootstrap.js:68:38)
+   2026-06-24T11:40:01.38+0000 [APP/PROC/WEB/0] ERR at Approuter.start (/home/vcap/app/node_modules/@sap/approuter/approuter.js:71:13)
+   2026-06-24T11:40:01.38+0000 [APP/PROC/WEB/0] ERR at Object.<anonymous> (/home/vcap/app/node_modules/@sap/approuter/approuter.js:178:6)
+   2026-06-24T11:40:01.38+0000 [APP/PROC/WEB/0] ERR at Module._compile (node:internal/modules/cjs/loader:1705:14)
+   2026-06-24T11:40:01.38+0000 [APP/PROC/WEB/0] ERR at Object..js (node:internal/modules/cjs/loader:1838:10)
+   2026-06-24T11:40:01.38+0000 [APP/PROC/WEB/0] ERR at Module.load (node:internal/modules/cjs/loader:1441:32) {
+   2026-06-24T11:40:01.38+0000 [APP/PROC/WEB/0] ERR jse_shortmsg: 'xs-app.json/routes/1: Format validation failed (/home/vcap/app/webapp is not a directory)',
+   2026-06-24T11:40:01.38+0000 [APP/PROC/WEB/0] ERR jse_info: {}
+   2026-06-24T11:40:01.38+0000 [APP/PROC/WEB/0] ERR }
+   2026-06-24T11:40:01.38+0000 [APP/PROC/WEB/0] ERR Node.js v22.22.2
+   2026-06-24T11:40:01.40+0000 [APP/PROC/WEB/0] ERR npm notice
+   2026-06-24T11:40:01.40+0000 [APP/PROC/WEB/0] ERR npm notice New major version of npm available! 10.9.7 -> 11.17.0
+   2026-06-24T11:40:01.40+0000 [APP/PROC/WEB/0] ERR npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.17.0
+   2026-06-24T11:40:01.40+0000 [APP/PROC/WEB/0] ERR npm notice To update run: npm install -g npm@11.17.0
+   2026-06-24T11:40:01.40+0000 [APP/PROC/WEB/0] ERR npm notice
+   2026-06-24T11:40:01.48+0000 [APP/PROC/WEB/0] OUT Exit status 1
+   2026-06-24T11:40:09.55+0000 [CELL/0] OUT Cell 54b50d35-322b-4617-baa3-c13476b47cb5 stopping instance 37fe7688-8b67-4941-7aa1-778b
+   2026-06-24T11:40:09.55+0000 [CELL/0] OUT Cell 54b50d35-322b-4617-baa3-c13476b47cb5 destroying container for instance 37fe7688-8b67-4941-7aa1-778b
+   2026-06-24T11:40:09.57+0000 [API/0] OUT Process has crashed with type: "web"
+   2026-06-24T11:40:09.59+0000 [API/0] OUT App instance exited with guid 304059af-b542-421c-9865-6ce5b54c18ff payload: {"instance"=>"37fe7688-8b67-4941-7aa1-778b", "index"=>0, "cell_id"=>"54b50d35-322b-4617-baa3-c13476b47cb5", "reason"=>"CRASHED", "exit_description"=>"APP/PROC/WEB: Exited with status 1", "crash_count"=>4, "crash_timestamp"=>1782301209540804141, "version"=>"f85c5d91-7a26-4f5e-9155-aa9527175184"}
+   2026-06-24T11:40:09.70+0000 [PROXY/0] OUT Exit status 137
+   2026-06-24T11:40:12.75+0000 [CELL/0] OUT Cell 54b50d35-322b-4617-baa3-c13476b47cb5 successfully destroyed container for instance 37fe7688-8b67-4941-7aa1-778b
+   2026-06-24T11:41:27.09+0000 [CELL/0] OUT Cell 4401fcd0-006d-4ceb-9b51-aa22a1b186cf creating container for instance 34d2674d-a53b-41d2-46b4-b7e5
+   2026-06-24T11:41:27.45+0000 [CELL/0] OUT Security group rules were updated
+   2026-06-24T11:41:27.51+0000 [CELL/0] OUT Cell 4401fcd0-006d-4ceb-9b51-aa22a1b186cf successfully created container for instance 34d2674d-a53b-41d2-46b4-b7e5
+   2026-06-24T11:41:28.68+0000 [CELL/0] OUT Downloading droplet...
+   2026-06-24T11:41:29.78+0000 [CELL/0] OUT Downloaded droplet
+   2026-06-24T11:41:29.78+0000 [CELL/0] OUT Starting health monitoring of container
+   2026-06-24T11:41:29.85+0000 [APP/PROC/WEB/0] OUT Invoking pre-start scripts.
+   2026-06-24T11:41:30.01+0000 [APP/PROC/WEB/0] OUT Invoking start command.
+   2026-06-24T11:41:30.33+0000 [APP/PROC/WEB/0] OUT > start
+   2026-06-24T11:41:30.33+0000 [APP/PROC/WEB/0] OUT > node node_modules/@sap/approuter/approuter.js
+   2026-06-24T11:41:30.48+0000 [APP/PROC/WEB/0] OUT {"written_at":"2026-06-24T11:41:30.481Z","written_ts":1782301290481000000,"csn_component":"-","correlation_id":"-","type":"log","logger":"nodejs-logger","layer":"/LoggingLibrary","level":"warning","container_id":"10.32.3.5","component_type":"application","component_id":"304059af-b542-421c-9865-6ce5b54c18ff","component_name":"EPM","component_instance":-1,"source_instance":-1,"organization_id":"789aa033-f659-4ca4-a591-bf9d3c539fcd","organization_name":"ca497a98trial","space_id":"2b197de0-4164-4b4b-a753-5e60fdc57e12","space_name":"dev","context_id":"","msg":"Dynamic log level switching not available"}
+   2026-06-24T11:41:30.88+0000 [APP/PROC/WEB/0] OUT {"written_at":"2026-06-24T11:41:30.881Z","written_ts":1782301290881000000,"csn_component":"-","correlation_id":"mqs065j5","type":"log","logger":"nodejs-logger","layer":"/approuter","level":"info","container_id":"10.32.3.5","component_type":"application","component_id":"304059af-b542-421c-9865-6ce5b54c18ff","component_name":"EPM","component_instance":-1,"source_instance":-1,"organization_id":"789aa033-f659-4ca4-a591-bf9d3c539fcd","organization_name":"ca497a98trial","space_id":"2b197de0-4164-4b4b-a753-5e60fdc57e12","space_name":"dev","context_id":"mqs065j5","msg":"Application router version 21.5.0"}
+   2026-06-24T11:41:30.88+0000 [APP/PROC/WEB/0] OUT {"written_at":"2026-06-24T11:41:30.885Z","written_ts":1782301290885000000,"csn_component":"-","correlation_id":"mqs065j9","type":"log","logger":"nodejs-logger","layer":"/Configuration","level":"info","container_id":"10.32.3.5","component_type":"application","component_id":"304059af-b542-421c-9865-6ce5b54c18ff","component_name":"EPM","component_instance":-1,"source_instance":-1,"organization_id":"789aa033-f659-4ca4-a591-bf9d3c539fcd","organization_name":"ca497a98trial","space_id":"2b197de0-4164-4b4b-a753-5e60fdc57e12","space_name":"dev","context_id":"mqs065j9","msg":"No COOKIES environment variable"}
+   2026-06-24T11:41:30.89+0000 [APP/PROC/WEB/0] ERR /home/vcap/app/node_modules/@sap/approuter/lib/utils/JsonValidator.js:30
+   2026-06-24T11:41:30.89+0000 [APP/PROC/WEB/0] ERR throw new VError('%s%s: %s',
+   2026-06-24T11:41:30.89+0000 [APP/PROC/WEB/0] ERR ^
+   2026-06-24T11:41:30.89+0000 [APP/PROC/WEB/0] ERR VError: xs-app.json/routes/1: Format validation failed (/home/vcap/app/webapp is not a directory)
+   2026-06-24T11:41:30.89+0000 [APP/PROC/WEB/0] ERR at JsonValidator.validate (/home/vcap/app/node_modules/@sap/approuter/lib/utils/JsonValidator.js:30:11)
+   2026-06-24T11:41:30.89+0000 [APP/PROC/WEB/0] ERR at Object.validateXsApp (/home/vcap/app/node_modules/@sap/approuter/lib/configuration/validators.js:168:15)
+   2026-06-24T11:41:30.89+0000 [APP/PROC/WEB/0] ERR at exports.loadConfiguration (/home/vcap/app/node_modules/@sap/approuter/lib/configuration/app-config.js:21:14)
+   2026-06-24T11:41:30.89+0000 [APP/PROC/WEB/0] ERR at module.exports.load (/home/vcap/app/node_modules/@sap/approuter/lib/configuration.js:24:34)
+   2026-06-24T11:41:30.89+0000 [APP/PROC/WEB/0] ERR at bootstrap (/home/vcap/app/node_modules/@sap/approuter/lib/bootstrap.js:68:38)
+   2026-06-24T11:41:30.89+0000 [APP/PROC/WEB/0] ERR at Approuter.start (/home/vcap/app/node_modules/@sap/approuter/approuter.js:71:13)
+   2026-06-24T11:41:30.89+0000 [APP/PROC/WEB/0] ERR at Object.<anonymous> (/home/vcap/app/node_modules/@sap/approuter/approuter.js:178:6)
+   2026-06-24T11:41:30.89+0000 [APP/PROC/WEB/0] ERR at Module._compile (node:internal/modules/cjs/loader:1705:14)
+   2026-06-24T11:41:30.89+0000 [APP/PROC/WEB/0] ERR at Object..js (node:internal/modules/cjs/loader:1838:10)
+   2026-06-24T11:41:30.89+0000 [APP/PROC/WEB/0] ERR at Module.load (node:internal/modules/cjs/loader:1441:32) {
+   2026-06-24T11:41:30.89+0000 [APP/PROC/WEB/0] ERR jse_shortmsg: 'xs-app.json/routes/1: Format validation failed (/home/vcap/app/webapp is not a directory)',
+   2026-06-24T11:41:30.89+0000 [APP/PROC/WEB/0] ERR jse_info: {}
+   2026-06-24T11:41:30.89+0000 [APP/PROC/WEB/0] ERR }
+   2026-06-24T11:41:30.89+0000 [APP/PROC/WEB/0] ERR Node.js v22.22.2
+   2026-06-24T11:41:30.90+0000 [APP/PROC/WEB/0] ERR npm notice
+   2026-06-24T11:41:30.90+0000 [APP/PROC/WEB/0] ERR npm notice New major version of npm available! 10.9.7 -> 11.17.0
+   2026-06-24T11:41:30.90+0000 [APP/PROC/WEB/0] ERR npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.17.0
+   2026-06-24T11:41:30.90+0000 [APP/PROC/WEB/0] ERR npm notice To update run: npm install -g npm@11.17.0
+   2026-06-24T11:41:30.90+0000 [APP/PROC/WEB/0] ERR npm notice
+   2026-06-24T11:41:30.95+0000 [APP/PROC/WEB/0] OUT Exit status 1
+   2026-06-24T11:41:37.37+0000 [CELL/0] OUT Cell 4401fcd0-006d-4ceb-9b51-aa22a1b186cf stopping instance 34d2674d-a53b-41d2-46b4-b7e5
+   2026-06-24T11:41:37.37+0000 [CELL/0] OUT Cell 4401fcd0-006d-4ceb-9b51-aa22a1b186cf destroying container for instance 34d2674d-a53b-41d2-46b4-b7e5
+   2026-06-24T11:41:37.40+0000 [API/0] OUT Process has crashed with type: "web"
+   2026-06-24T11:41:37.42+0000 [API/0] OUT App instance exited with guid 304059af-b542-421c-9865-6ce5b54c18ff payload: {"instance"=>"34d2674d-a53b-41d2-46b4-b7e5", "index"=>0, "cell_id"=>"4401fcd0-006d-4ceb-9b51-aa22a1b186cf", "reason"=>"CRASHED", "exit_description"=>"APP/PROC/WEB: Exited with status 1", "crash_count"=>5, "crash_timestamp"=>1782301297368389642, "version"=>"f85c5d91-7a26-4f5e-9155-aa9527175184"}
+   2026-06-24T11:41:37.46+0000 [PROXY/0] OUT Exit status 137
+   2026-06-24T11:41:38.84+0000 [CELL/0] OUT Cell 4401fcd0-006d-4ceb-9b51-aa22a1b186cf successfully destroyed container for instance 34d2674d-a53b-41d2-46b4-b7e5
+   2026-06-24T11:43:59.57+0000 [CELL/0] OUT Cell 54b50d35-322b-4617-baa3-c13476b47cb5 creating container for instance 278dd4b2-93ec-4fa9-4fa3-c43f
+   2026-06-24T11:44:00.48+0000 [CELL/0] OUT Security group rules were updated
+   2026-06-24T11:44:00.61+0000 [CELL/0] OUT Cell 54b50d35-322b-4617-baa3-c13476b47cb5 successfully created container for instance 278dd4b2-93ec-4fa9-4fa3-c43f
+   2026-06-24T11:44:00.94+0000 [CELL/0] OUT Downloading droplet...
+   2026-06-24T11:44:02.96+0000 [CELL/0] OUT Downloaded droplet
+   2026-06-24T11:44:02.96+0000 [CELL/0] OUT Starting health monitoring of container
+   2026-06-24T11:44:03.13+0000 [APP/PROC/WEB/0] OUT Invoking pre-start scripts.
+   2026-06-24T11:44:03.44+0000 [APP/PROC/WEB/0] OUT Invoking start command.
+   2026-06-24T11:44:03.97+0000 [APP/PROC/WEB/0] OUT > start
+   2026-06-24T11:44:03.97+0000 [APP/PROC/WEB/0] OUT > node node_modules/@sap/approuter/approuter.js
+   2026-06-24T11:44:04.19+0000 [APP/PROC/WEB/0] OUT {"written_at":"2026-06-24T11:44:04.193Z","written_ts":1782301444193000000,"csn_component":"-","correlation_id":"-","type":"log","logger":"nodejs-logger","layer":"/LoggingLibrary","level":"warning","container_id":"10.32.1.6","component_type":"application","component_id":"304059af-b542-421c-9865-6ce5b54c18ff","component_name":"EPM","component_instance":-1,"source_instance":-1,"organization_id":"789aa033-f659-4ca4-a591-bf9d3c539fcd","organization_name":"ca497a98trial","space_id":"2b197de0-4164-4b4b-a753-5e60fdc57e12","space_name":"dev","context_id":"","msg":"Dynamic log level switching not available"}
+   2026-06-24T11:44:04.86+0000 [APP/PROC/WEB/0] OUT {"written_at":"2026-06-24T11:44:04.863Z","written_ts":1782301444863000000,"csn_component":"-","correlation_id":"mqs09gcf","type":"log","logger":"nodejs-logger","layer":"/approuter","level":"info","container_id":"10.32.1.6","component_type":"application","component_id":"304059af-b542-421c-9865-6ce5b54c18ff","component_name":"EPM","component_instance":-1,"source_instance":-1,"organization_id":"789aa033-f659-4ca4-a591-bf9d3c539fcd","organization_name":"ca497a98trial","space_id":"2b197de0-4164-4b4b-a753-5e60fdc57e12","space_name":"dev","context_id":"mqs09gcf","msg":"Application router version 21.5.0"}
+   2026-06-24T11:44:04.87+0000 [APP/PROC/WEB/0] OUT {"written_at":"2026-06-24T11:44:04.870Z","written_ts":1782301444870000000,"csn_component":"-","correlation_id":"mqs09gcm","type":"log","logger":"nodejs-logger","layer":"/Configuration","level":"info","container_id":"10.32.1.6","component_type":"application","component_id":"304059af-b542-421c-9865-6ce5b54c18ff","component_name":"EPM","component_instance":-1,"source_instance":-1,"organization_id":"789aa033-f659-4ca4-a591-bf9d3c539fcd","organization_name":"ca497a98trial","space_id":"2b197de0-4164-4b4b-a753-5e60fdc57e12","space_name":"dev","context_id":"mqs09gcm","msg":"No COOKIES environment variable"}
+   2026-06-24T11:44:04.87+0000 [APP/PROC/WEB/0] ERR /home/vcap/app/node_modules/@sap/approuter/lib/utils/JsonValidator.js:30
+   2026-06-24T11:44:04.87+0000 [APP/PROC/WEB/0] ERR throw new VError('%s%s: %s',
+   2026-06-24T11:44:04.87+0000 [APP/PROC/WEB/0] ERR ^
+   2026-06-24T11:44:04.87+0000 [APP/PROC/WEB/0] ERR VError: xs-app.json/routes/1: Format validation failed (/home/vcap/app/webapp is not a directory)
+   2026-06-24T11:44:04.87+0000 [APP/PROC/WEB/0] ERR at JsonValidator.validate (/home/vcap/app/node_modules/@sap/approuter/lib/utils/JsonValidator.js:30:11)
+   2026-06-24T11:44:04.87+0000 [APP/PROC/WEB/0] ERR at Object.validateXsApp (/home/vcap/app/node_modules/@sap/approuter/lib/configuration/validators.js:168:15)
+   2026-06-24T11:44:04.87+0000 [APP/PROC/WEB/0] ERR at exports.loadConfiguration (/home/vcap/app/node_modules/@sap/approuter/lib/configuration/app-config.js:21:14)
+   2026-06-24T11:44:04.87+0000 [APP/PROC/WEB/0] ERR at module.exports.load (/home/vcap/app/node_modules/@sap/approuter/lib/configuration.js:24:34)
+   2026-06-24T11:44:04.87+0000 [APP/PROC/WEB/0] ERR at bootstrap (/home/vcap/app/node_modules/@sap/approuter/lib/bootstrap.js:68:38)
+   2026-06-24T11:44:04.87+0000 [APP/PROC/WEB/0] ERR at Approuter.start (/home/vcap/app/node_modules/@sap/approuter/approuter.js:71:13)
+   2026-06-24T11:44:04.87+0000 [APP/PROC/WEB/0] ERR at Object.<anonymous> (/home/vcap/app/node_modules/@sap/approuter/approuter.js:178:6)
+   2026-06-24T11:44:04.87+0000 [APP/PROC/WEB/0] ERR at Module._compile (node:internal/modules/cjs/loader:1705:14)
+   2026-06-24T11:44:04.87+0000 [APP/PROC/WEB/0] ERR at Object..js (node:internal/modules/cjs/loader:1838:10)
+   2026-06-24T11:44:04.87+0000 [APP/PROC/WEB/0] ERR at Module.load (node:internal/modules/cjs/loader:1441:32) {
+   2026-06-24T11:44:04.87+0000 [APP/PROC/WEB/0] ERR jse_shortmsg: 'xs-app.json/routes/1: Format validation failed (/home/vcap/app/webapp is not a directory)',
+   2026-06-24T11:44:04.87+0000 [APP/PROC/WEB/0] ERR jse_info: {}
+   2026-06-24T11:44:04.87+0000 [APP/PROC/WEB/0] ERR }
+   2026-06-24T11:44:04.87+0000 [APP/PROC/WEB/0] ERR Node.js v22.22.2
+   2026-06-24T11:44:04.89+0000 [APP/PROC/WEB/0] ERR npm notice
+   2026-06-24T11:44:04.89+0000 [APP/PROC/WEB/0] ERR npm notice New major version of npm available! 10.9.7 -> 11.17.0
+   2026-06-24T11:44:04.89+0000 [APP/PROC/WEB/0] ERR npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.17.0
+   2026-06-24T11:44:04.89+0000 [APP/PROC/WEB/0] ERR npm notice To update run: npm install -g npm@11.17.0
+   2026-06-24T11:44:04.89+0000 [APP/PROC/WEB/0] ERR npm notice
+   2026-06-24T11:44:04.97+0000 [APP/PROC/WEB/0] OUT Exit status 1
+   2026-06-24T11:44:12.21+0000 [CELL/0] OUT Cell 54b50d35-322b-4617-baa3-c13476b47cb5 stopping instance 278dd4b2-93ec-4fa9-4fa3-c43f
+   2026-06-24T11:44:12.21+0000 [CELL/0] OUT Cell 54b50d35-322b-4617-baa3-c13476b47cb5 destroying container for instance 278dd4b2-93ec-4fa9-4fa3-c43f
+   2026-06-24T11:44:12.23+0000 [API/1] OUT Process has crashed with type: "web"
+   2026-06-24T11:44:12.25+0000 [API/1] OUT App instance exited with guid 304059af-b542-421c-9865-6ce5b54c18ff payload: {"instance"=>"278dd4b2-93ec-4fa9-4fa3-c43f", "index"=>0, "cell_id"=>"54b50d35-322b-4617-baa3-c13476b47cb5", "reason"=>"CRASHED", "exit_description"=>"APP/PROC/WEB: Exited with status 1", "crash_count"=>6, "crash_timestamp"=>1782301452209742940, "version"=>"f85c5d91-7a26-4f5e-9155-aa9527175184"}
+   2026-06-24T11:44:12.39+0000 [PROXY/0] OUT Exit status 137
+   2026-06-24T11:44:15.38+0000 [CELL/0] OUT Cell 54b50d35-322b-4617-baa3-c13476b47cb5 successfully destroyed container for instance 278dd4b2-93ec-4fa9-4fa3-c43f
