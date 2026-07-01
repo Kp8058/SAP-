@@ -1,0 +1,50 @@
+# Getting Started
+
+Welcome to your new CAP project.
+
+It contains these folders and files, following our recommended project layout:
+
+File or Folder | Purpose
+---------|----------
+`app/` | content for UI frontends goes here
+`db/` | your domain models and data go here
+`srv/` | your service models and code go here
+`readme.md` | this getting started guide
+
+## Next Steps
+
+- Open a new terminal and run `cds watch`
+- (in VS Code simply choose _**Terminal** > Run Task > cds watch_)
+- Start with your domain model, in a CDS file in `db/`
+
+## Learn More
+
+Learn more at <https://cap.cloud.sap>.
+
+
+
+
+## ui5-deploy.yaml
+
+# yaml-language-server: $schema=https://sap.github.io/ui5-tooling/schema/ui5.yaml.json
+
+specVersion: "4.0"
+metadata:
+  name: ns.incidents
+type: application
+resources:
+  configuration:
+    propertiesFileSourceEncoding: UTF-8
+builder:
+  resources:
+    excludes:
+      - /test/**
+      - /localService/**
+  customTasks:
+    - name: ui5-task-zipper
+      afterTask: generateCachebusterInfo
+      configuration:
+        archiveName: incidents
+        relativePaths: true
+        additionalFiles:
+          - xs-app.json
