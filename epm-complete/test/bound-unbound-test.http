@@ -1,0 +1,37 @@
+### Call unbound action: GenerateReport
+# POST http://localhost:4004/odata/v4/analytics/GenerateReport
+# Content-Type: application/json
+
+# {
+#  "reportType": "Sales",
+#  "startDate": "2026-01-01",
+#  "endDate": "2026-05-31"
+# }
+
+
+
+### Confirm a specific order
+
+POST http://localhost:4004/odata/v4/sales/SalesOrders(ace84650-45b0-463f-b5a9-8a09cbd46d63)/SalesService.confirm
+Content-Type: application/json
+
+{}
+
+### Ship an order (with tracking info)
+
+POST http://localhost:4004/odata/v4/sales/SalesOrders(802dc164-9938-4db2-acc2-292383b66b66)/SalesService.ship
+Content-Type: application/json
+
+{
+  "trackingNumber": "TRK-2026-ABC123",
+  "carrier": "FedEx"
+}
+ 
+### Cancel a specific order (with reason parameter)
+
+POST http://localhost:4004/odata/v4/sales/SalesOrders(b9e98a9a-adf7-4d76-9673-67d0b8127843)/SalesService.cancel
+Content-Type: application/json
+
+{
+  "reason": "Customer changed their mind"
+}

@@ -1,0 +1,118 @@
+
+### Products
+GET http://localhost:4004/odata/v4/admin/Products
+
+###
+
+### Suppliers
+GET http://localhost:4004/odata/v4/admin/Suppliers
+
+###
+
+### Customers
+GET http://localhost:4004/odata/v4/admin/Customers
+
+###
+
+### Sales Orders
+GET http://localhost:4004/odata/v4/admin/SalesOrders
+
+### Sales Orders
+GET http://localhost:4004/odata/v4/admin/SalesOrders(b3843dd7-0136-40fd-bb65-ea34b0249c19)
+
+###
+
+### Purchase Orders
+GET http://localhost:4004/odata/v4/admin/PurchaseOrders
+
+
+### Purchase Orders 
+//GET http://localhost:4004/odata/v4/admin/PurchaseOrders?filter=hour(createdAt) eq 10
+
+###
+
+### Expand Supplier
+GET http://localhost:4004/odata/v4/admin/Products?$expand=supplier
+
+###
+
+### Expand Category
+GET http://localhost:4004/odata/v4/admin/Products?$expand=category
+
+###
+
+### Expand Customer
+GET http://localhost:4004/odata/v4/admin/SalesOrders?$expand=customer
+
+###
+
+### Filter Products
+GET http://localhost:4004/odata/v4/admin/Products?$filter=name eq 'HP Pavilion 15'
+
+### Filter Products
+GET http://localhost:4004/odata/v4/admin/Products?$filter=stock gt 40
+
+###
+
+### Low Stock Products
+GET http://localhost:4004/odata/v4/admin/Products?$filter=stock le minStock
+
+###
+
+### Order By Price Desc
+GET http://localhost:4004/odata/v4/admin/Products?$orderby=price desc
+
+###
+
+### Top 5 Products
+GET http://localhost:4004/odata/v4/admin/Products?$top=5
+
+###
+
+### Product Catalog Report
+GET http://localhost:4004/odata/v4/report/ProductCatalog
+
+###
+
+### Order Report
+GET http://localhost:4004/odata/v4/report/OrderReport
+
+###
+
+### Low Stock Alert
+GET http://localhost:4004/odata/v4/report/LowStockAlert
+
+###
+
+### Sales Service Products
+GET http://localhost:4004/odata/v4/sales/Products
+
+###
+
+### Sales Service Customers
+GET http://localhost:4004/odata/v4/sales/Customers
+
+###
+
+### Deep Insert Sales Order
+POST http://localhost:4004/odata/v4/sales/SalesOrders
+Content-Type: application/json
+
+{
+"orderNumber": "SO2001",
+"customer_ID": "CUS1",
+"totalAmount": 67000,
+"taxAmount": 2000,
+"netAmount": 65000,
+"currency_code": "INR",
+"status": "OPEN",
+"items": [
+ {
+  "product_ID": "PRD1",
+  "quantity": 1,
+  "unitPrice": 65000,
+  "netAmount": 65000
+ }
+]
+}
+

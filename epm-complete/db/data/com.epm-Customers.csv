@@ -1,0 +1,6 @@
+ID,name,email,phone,city,country_code,creditLimit,createdAt,createdBy,modifiedAt,modifiedBy
+CUS1,Raj Malhotra,raj@gmail.com,9991111111,Delhi,IN,100000,2026-01-01T10:00:00Z,admin,2026-01-01T10:00:00Z,admin
+CUS2,Priya Singh,priya@gmail.com,9992222222,Mumbai,IN,150000,2026-01-01T10:00:00Z,admin,2026-01-01T10:00:00Z,admin
+CUS3,Aman Verma,aman@gmail.com,9993333333,Chandigarh,IN,80000,2026-01-01T10:00:00Z,admin,2026-01-01T10:00:00Z,admin
+CUS4,Neha Gupta,neha@gmail.com,9994444444,Bangalore,IN,200000,2026-01-01T10:00:00Z,admin,2026-01-01T10:00:00Z,admin
+ 
